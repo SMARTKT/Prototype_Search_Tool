@@ -17,9 +17,9 @@ run the following command
 '''
 
 > git clone https://github.com/SMARTKT/Prototype_Search_Tool.git
-> 
-> cd Server_files
-> 
+> sudo apt-get install unzip
+> unzip Prototype_Search_Tool-main.zip 
+> cd Prototype_Search_Tool-main/Server_files/
 > python init.py
 
 '''
@@ -35,7 +35,7 @@ Time taken to load TTL 176.20316982269287
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 
 
- Copy http://0.0.0.0:5000/ and paste in an internet explorer
+ Copy http://0.0.0.0:5000/ and paste in an internet explorer-  (localhost)
 
  Once the query interface is live, try querying
  
