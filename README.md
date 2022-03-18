@@ -14,11 +14,15 @@ Requires latest version of python (> python 3.8)
 
 run the following command
 
+'''
 
-> git clone 
+> git clone https://github.com/SMARTKT/Prototype_Search_Tool.git
+> 
 > cd Server_files
+> 
 > python init.py
 
+'''
 
 The following screen is flashed after a certain wait time as .ttl files are loaded (.ttl is extension of semantic triples using which the knowledge graph is stored)
 
