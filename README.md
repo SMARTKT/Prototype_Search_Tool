@@ -35,7 +35,7 @@ Time taken to load TTL 176.20316982269287
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 
 
- Copy http://0.0.0.0:5000/ and paste in an internet explorer-  (localhost)
+ Copy the url provided -- in this case  http://0.0.0.0:5000/ and paste in an internet browser-  (localhost)
 
  Once the query interface is live, try querying
  
