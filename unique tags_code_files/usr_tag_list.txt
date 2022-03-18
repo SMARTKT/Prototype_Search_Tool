@@ -1,0 +1,39 @@
+------------LIST OF TAGS WITH USR------------
+
+UnionDecl
+ClassDecl
+FriendDecl
+StructDecl
+EnumConstantDecl
+VarDecl
+ParmDecl
+EnumDecl
+FunctionDecl
+CXXAccessSpecifier
+FieldDecl
+CXXConstructor
+CXXMethod
+
+------------LIST OF TAGS WITH NO USR BUT HAVE DEF_USR OR REF_USR------------
+
+TypeRef
+CXXBaseClassSpecifier
+UnexposedExpr
+DeclRefExpr
+MemberRefExpr
+CallExpr
+
+------------LIST OF TAGS WITH NO KINDS OF USR------------
+
+FloatingLiteral
+BinaryOperator
+UnexposedExpr
+CXXNewExpr
+CompoundAssignOperator
+CXXBoolLiteralExpr
+IntegerLiteral
+CXXThisExpr
+UnaryOperator
+ReturnStmt
+CompoundStmt
+DeclStmt

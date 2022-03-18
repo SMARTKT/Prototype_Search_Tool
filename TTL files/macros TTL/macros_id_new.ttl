@@ -1,0 +1,107 @@
+@prefix prop: <http://smartKT/ns/properties#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix symbol: <http://smartKT/ns/symbol#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://smartKT/ns/symbol#104162346658> prop:absolute_file_path "base.c" ;
+    prop:has_id 104162346658 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c#5" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c#5" ;
+    prop:is_a "FunctionDecl" ;
+    prop:is_defined_file "base.c" ;
+    prop:lex_parent_id "" ;
+    prop:linkage_kind "external" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c" ;
+    prop:return_type "int" ;
+    prop:spelling "main" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@F@main" .
+
+<http://smartKT/ns/symbol#104244614352> prop:absolute_file_path "base.c" ;
+    prop:has_id 104244614352 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c#7" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c#7" ;
+    prop:is_a "VarDecl" ;
+    prop:is_defined_file "base.c" ;
+    prop:lex_parent_id "104162346658" ;
+    prop:linkage_kind "auto" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c" ;
+    prop:size 4 ;
+    prop:spelling "y" ;
+    prop:storage_class "default_auto" ;
+    prop:type "int" ;
+    prop:usr "c:base.c@50@F@main@y" .
+
+<http://smartKT/ns/symbol#101144058331> prop:absolute_file_path "base.c" ;
+    prop:has_child <http://smartKT/ns/symbol#201508608778> ;
+    prop:has_id 101144058331 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c#7" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c#7" ;
+    prop:is_a "VarDecl" ;
+    prop:is_defined_file "base.c" ;
+    prop:lex_parent_id "104162346658" ;
+    prop:linkage_kind "auto" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c" ;
+    prop:size 4 ;
+    prop:spelling "z" ;
+    prop:storage_class "default_auto" ;
+    prop:type "int" ;
+    prop:usr "c:base.c@50@F@main@z" .
+
+<http://smartKT/ns/symbol#201999951589> prop:absolute_file_path "foo.c" ;
+    prop:has_child <http://smartKT/ns/symbol#201999951589> ;
+    prop:has_id 201999951589 ;
+    prop:has_parent <http://smartKT/ns/symbol#201508608778>,
+        <http://smartKT/ns/symbol#201999951589> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.c#3" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.c#3" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.c#3" ;
+    prop:isRead_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.c#3" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.c#3" ;
+    prop:is_a "DeclRefExpr",
+        "ParmDecl" ;
+    prop:is_defined_file "foo.c" ;
+    prop:lex_parent_id "201508608778" ;
+    prop:linkage_kind "auto" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.c" ;
+    prop:size 4 ;
+    prop:spelling "x" ;
+    prop:storage_class "default_auto" ;
+    prop:type "int" ;
+    prop:usr "c:foo.c@24@F@f@x" .
+
+<http://smartKT/ns/symbol#201508608778> prop:absolute_file_path "base.c",
+        "foo.c",
+        "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#201508608778>,
+        <http://smartKT/ns/symbol#201999951589> ;
+    prop:has_id 201508608778 ;
+    prop:has_parent <http://smartKT/ns/symbol#101144058331>,
+        <http://smartKT/ns/symbol#201508608778> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c#7" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.c#3",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.h#4" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.c#3" ;
+    prop:is_a "CallExpr",
+        "DeclRefExpr",
+        "FunctionDecl" ;
+    prop:is_defined_file "foo.c" ;
+    prop:is_extern_file "foo.h" ;
+    prop:lex_parent_id "" ;
+    prop:linkage_kind "external" ;
+    prop:param_type "int" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/base.c",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.c",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/macros/foo.h" ;
+    prop:return_type "int" ;
+    prop:sem_parent_id "101144058331" ;
+    prop:spelling "f" ;
+    prop:storage_class "default_auto" ;
+    prop:type "int",
+        "int (*)(int)",
+        "int (int)" ;
+    prop:usr "c:@F@f" .
+

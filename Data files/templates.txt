@@ -1,0 +1,22 @@
+-----1-------
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX symbol: <http://smartKT/ns/symbol#> 
+
+SELECT ?type
+WHERE
+{
+ 	?func prop:<<STATIC_ATTRIBUTE>> ?type ;
+ 	      prop:spelling <<SYMBOL>> .
+ 	FILTER strStarts(str(?func),str(symbol:)) .
+}
+-----2-------
+PREFIX prop: <http://smartKT/ns/properties#> 
+PREFIX symbol: <http://smartKT/ns/symbol#>  
+SELECT ?id				
+WHERE
+{
+	?func prop:name <<SYMBOL>> .
+	?func prop:<<STATIC_ATTRIBUTE>>* ?id .
+
+	FILTER strStarts(str(?func),str(symbol:)) .
+}

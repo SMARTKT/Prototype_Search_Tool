@@ -1,0 +1,46 @@
+@prefix prop: <http://smartKT/ns/properties#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sequence: <http://smartKT/ns/sequence#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://smartKT/ns/sequence#1> prop:callee_name "f" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#2> prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#3> prop:is_a "LOCALACCESS" ;
+    prop:read_count 2 ;
+    prop:var_id 201999951589 ;
+    prop:var_name "x" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#4> prop:is_a "RETURN" ;
+    prop:return_value 36 ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#5> prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#6> prop:is_a "LOCALACCESS" ;
+    prop:read_count 0 ;
+    prop:var_id 101144058331 ;
+    prop:var_name "z" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#7> prop:is_a "LOCALACCESS" ;
+    prop:read_count 0 ;
+    prop:var_id 104244614352 ;
+    prop:var_name "y" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#8> prop:is_a "RETURN" ;
+    prop:return_value 0 ;
+    prop:thread_id 0 .
+

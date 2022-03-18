@@ -1,0 +1,38 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+@EXPLICIT
+https://conda.anaconda.org/anaconda/linux-64/blas-1.0-mkl.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/ca-certificates-2020.6.24-0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/intel-openmp-2020.1-217.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/libgcc-ng-9.1.0-hdf63c60_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/libgfortran-ng-7.3.0-hdf63c60_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/libstdcxx-ng-9.1.0-hdf63c60_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/libffi-3.2.1-h4deb6c0_3.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/mkl-2019.4-243.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/ncurses-6.2-he6710b0_1.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/openssl-1.1.1g-h7b6447c_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/zlib-1.2.11-h7b6447c_3.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/libedit-3.1.20191231-h14c3975_1.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/readline-7.0-h7b6447c_5.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/tk-8.6.8-hbc83047_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/sqlite-3.31.1-h62c20be_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/python-2.7.17-h9bab390_0.conda
+https://conda.anaconda.org/anaconda/linux-64/certifi-2019.11.28-py27_0.tar.bz2
+https://conda.anaconda.org/anaconda/noarch/click-7.1.1-py_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/itsdangerous-1.1.0-py27_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/markupsafe-1.1.1-py27h7b6447c_0.tar.bz2
+https://conda.anaconda.org/anaconda/noarch/six-1.15.0-py_0.tar.bz2
+https://conda.anaconda.org/anaconda/noarch/werkzeug-1.0.0-py_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/mkl-service-2.3.0-py27he904b0f_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/setuptools-44.0.0-py27_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/singledispatch-3.4.0.3-py27_0.tar.bz2
+https://conda.anaconda.org/anaconda/noarch/jinja2-2.11.2-py_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/nltk-3.4.5-py27_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/numpy-base-1.16.6-py27hde5b4d6_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/wheel-0.33.6-py27_0.tar.bz2
+https://conda.anaconda.org/anaconda/noarch/flask-1.1.1-py_1.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/pip-19.3.1-py27_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/mkl_fft-1.0.15-py27ha843d7b_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/mkl_random-1.1.0-py27hd6b4f25_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/numpy-1.16.6-py27hbc911f0_0.tar.bz2

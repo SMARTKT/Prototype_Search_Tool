@@ -1,0 +1,9 @@
+-----1-------
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT *
+WHERE
+{
+ 	<<SUBJECT>> <<PREDICATE>> <<OBJECT>> .
+}

@@ -1,0 +1,2557 @@
+@prefix prop: <http://smartKT/ns/properties#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix symbol: <http://smartKT/ns/symbol#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://smartKT/ns/symbol#100152287774> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 100152287774 ;
+    prop:has_parent <http://smartKT/ns/symbol#103292456156> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103292456156> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "sat" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "sat" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@sat" .
+
+<http://smartKT/ns/symbol#100218304836> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Protected" ;
+    prop:has_id 100218304836 ;
+    prop:has_parent <http://smartKT/ns/symbol#101471049563> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#74",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#78" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#72" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#72" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#74",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#78" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101471049563> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Breathing",
+        "is",
+        "isBreathing" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 1 ;
+    prop:spelling "isBreathing" ;
+    prop:type "bool" ;
+    prop:usr "c:@S@LivingThing@FI@isBreathing" .
+
+<http://smartKT/ns/symbol#100268800750> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 100268800750 ;
+    prop:has_parent <http://smartKT/ns/symbol#103010268972> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#103",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#99" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#96" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#96" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#103",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#99" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103010268972> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Crawling",
+        "is",
+        "isCrawling" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 1 ;
+    prop:spelling "isCrawling" ;
+    prop:type "bool" ;
+    prop:usr "c:@S@Reptile@FI@isCrawling" .
+
+<http://smartKT/ns/symbol#100290926350> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Protected" ;
+    prop:has_id 100290926350 ;
+    prop:has_parent <http://smartKT/ns/symbol#101502865278> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#85" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#85" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101502865278> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN6Animal7breatheEv" ;
+    prop:name_token "breathe" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "breathe" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@Animal@F@breathe#" .
+
+<http://smartKT/ns/symbol#100321819153> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Protected" ;
+    prop:has_id 100321819153 ;
+    prop:has_parent <http://smartKT/ns/symbol#103010268972> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#102" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#102" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103010268972> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN7Reptile5crawlEv" ;
+    prop:name_token "crawl" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "crawl" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@Reptile@F@crawl#" .
+
+<http://smartKT/ns/symbol#100448278105> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 100448278105 ;
+    prop:has_parent <http://smartKT/ns/symbol#103292456156> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103292456156> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "fri" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "fri" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@fri" .
+
+<http://smartKT/ns/symbol#100535905044> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 100535905044 ;
+    prop:has_parent <http://smartKT/ns/symbol#103010268972> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#98" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#98" ;
+    prop:is_a "CXXConstructor" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103010268972> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN7ReptileC4Ev" ;
+    prop:name_token "Reptile" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "Reptile" ;
+    prop:storage_class "default_auto" ;
+    prop:type "void ()" ;
+    prop:usr "c:@S@Reptile@F@Reptile#" .
+
+<http://smartKT/ns/symbol#100787762411> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 100787762411 ;
+    prop:has_parent <http://smartKT/ns/symbol#101502865278> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#89" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#89" ;
+    prop:is_a "CXXConstructor" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101502865278> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN6AnimalC4Ev" ;
+    prop:name_token "Animal" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "Animal" ;
+    prop:storage_class "default_auto" ;
+    prop:type "void ()" ;
+    prop:usr "c:@S@Animal@F@Animal#" .
+
+<http://smartKT/ns/symbol#101090505190> prop:absolute_file_path "foo.h" ;
+    prop:has_id 101090505190 ;
+    prop:has_parent <http://smartKT/ns/symbol#101783148214> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#44" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#43" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#43" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#44" ;
+    prop:is_a "DeclRefExpr",
+        "ParmDecl" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101783148214> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "i" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "i" ;
+    prop:storage_class "default_auto" ;
+    prop:type "int" ;
+    prop:usr "c:foo.h@718@S@DerivedClass1@F@hello#I#@i" .
+
+<http://smartKT/ns/symbol#101410785021> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 101410785021 ;
+    prop:has_parent <http://smartKT/ns/symbol#104292874567> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#19",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#21" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#36" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#36" ;
+    prop:is_a "CXXConstructor",
+        "CallExpr" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101807164044> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Class1",
+        "Derived",
+        "DerivedClass1" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:sem_parent_id <http://smartKT/ns/symbol#104292874567> ;
+    prop:spelling "DerivedClass1" ;
+    prop:storage_class "default_auto" ;
+    prop:type "DerivedClass1",
+        "void () noexcept" ;
+    prop:usr "c:@S@DerivedClass1@F@DerivedClass1#" .
+
+<http://smartKT/ns/symbol#101469655496> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 101469655496 ;
+    prop:has_parent <http://smartKT/ns/symbol#103292456156> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103292456156> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "wed" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "wed" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@wed" .
+
+<http://smartKT/ns/symbol#101623684699> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Protected" ;
+    prop:has_id 101623684699 ;
+    prop:has_parent <http://smartKT/ns/symbol#101502865278> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#86",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#90" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#84" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#84" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#90" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101502865278> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Count",
+        "breath",
+        "breathCount" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "breathCount" ;
+    prop:type "int" ;
+    prop:usr "c:@S@Animal@FI@breathCount" .
+
+<http://smartKT/ns/symbol#101780044710> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 101780044710 ;
+    prop:has_parent <http://smartKT/ns/symbol#103292456156> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103292456156> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "thrus" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "thrus" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@thrus" .
+
+<http://smartKT/ns/symbol#101808537163> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 101808537163 ;
+    prop:has_parent <http://smartKT/ns/symbol#103292456156> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103292456156> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "mon" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "mon" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@mon" .
+
+<http://smartKT/ns/symbol#101848948381> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 101848948381 ;
+    prop:has_parent <http://smartKT/ns/symbol#103889420436> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#39",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#40",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#44" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#21" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#21" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#44" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103889420436> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "c" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "c" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@FI@c" .
+
+<http://smartKT/ns/symbol#101907124604> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 101907124604 ;
+    prop:has_parent <http://smartKT/ns/symbol#101557133083> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#56" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#56" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101557133083> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Class",
+        "Friend",
+        "access",
+        "accessFriendClass" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "accessFriendClass" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@ParentClass1@F@accessFriendClass#" .
+
+<http://smartKT/ns/symbol#102177005309> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 102177005309 ;
+    prop:has_parent <http://smartKT/ns/symbol#102005762127> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#26" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#26" ;
+    prop:is_a "FieldDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#102005762127> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "f" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "f" ;
+    prop:type "float" ;
+    prop:usr "c:@S@ParentClass@U@month@FI@f" .
+
+<http://smartKT/ns/symbol#102261622387> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 102261622387 ;
+    prop:has_parent <http://smartKT/ns/symbol#103292456156> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103292456156> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "tue" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "tue" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@tue" .
+
+<http://smartKT/ns/symbol#102451926470> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 102451926470 ;
+    prop:has_parent <http://smartKT/ns/symbol#101807164044> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#38" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#38" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h" ;
+    prop:is_virtual "True" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101807164044> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN13DerivedClass15helloEv" ;
+    prop:name_token "hello" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "hello" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@DerivedClass1@F@hello#" .
+
+<http://smartKT/ns/symbol#102542201437> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 102542201437 ;
+    prop:has_parent <http://smartKT/ns/symbol#101471049563> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#77" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#77" ;
+    prop:is_a "CXXConstructor" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101471049563> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN11LivingThingC4Ev" ;
+    prop:name_token "Living",
+        "LivingThing",
+        "Thing" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "LivingThing" ;
+    prop:storage_class "default_auto" ;
+    prop:type "void ()" ;
+    prop:usr "c:@S@LivingThing@F@LivingThing#" .
+
+<http://smartKT/ns/symbol#102609072568> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 102609072568 ;
+    prop:has_parent <http://smartKT/ns/symbol#103292456156> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103292456156> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "sun" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "sun" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@sun" .
+
+<http://smartKT/ns/symbol#102694670267> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Protected" ;
+    prop:has_id 102694670267 ;
+    prop:has_parent <http://smartKT/ns/symbol#101471049563> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#73" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#73" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101471049563> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN11LivingThing7breatheEv" ;
+    prop:name_token "breathe" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "breathe" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@LivingThing@F@breathe#" .
+
+<http://smartKT/ns/symbol#102754981009> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 102754981009 ;
+    prop:has_parent <http://smartKT/ns/symbol#103889420436> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#48" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#22" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#22" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103889420436> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "d" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "d" ;
+    prop:type "float" ;
+    prop:usr "c:@S@ParentClass@FI@d" .
+
+<http://smartKT/ns/symbol#102873800654> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 102873800654 ;
+    prop:has_parent <http://smartKT/ns/symbol#101402665881> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#64" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#64" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101402665881> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "do",
+        "do_nothing",
+        "nothing" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "int" ;
+    prop:spelling "do_nothing" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@MI@F@do_nothing#" .
+
+<http://smartKT/ns/symbol#102909343051> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 102909343051 ;
+    prop:has_parent <http://smartKT/ns/symbol#100440782241> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#8" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#8" ;
+    prop:is_a "FieldDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100440782241> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "y" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "y" ;
+    prop:type "int" ;
+    prop:usr "c:@S@foo_str@FI@y" .
+
+<http://smartKT/ns/symbol#103134680686> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Private" ;
+    prop:has_id 103134680686 ;
+    prop:has_parent <http://smartKT/ns/symbol#100440782241> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#10" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#10" ;
+    prop:is_a "FieldDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100440782241> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "z" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "z" ;
+    prop:type "int" ;
+    prop:usr "c:@S@foo_str@FI@z" .
+
+<http://smartKT/ns/symbol#103803331192> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 103803331192 ;
+    prop:has_parent <http://smartKT/ns/symbol#102401806095> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#15" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107" ;
+    prop:is_a "CXXConstructor",
+        "CallExpr" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#102713208203> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Snake" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:sem_parent_id <http://smartKT/ns/symbol#102401806095> ;
+    prop:spelling "Snake" ;
+    prop:storage_class "default_auto" ;
+    prop:type "Snake",
+        "void () noexcept(false)" ;
+    prop:usr "c:@S@Snake@F@Snake#" .
+
+<http://smartKT/ns/symbol#104106297673> prop:absolute_file_path "foo.h" ;
+    prop:has_id 104106297673 ;
+    prop:has_parent <http://smartKT/ns/symbol#202883818811> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#13" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#13" ;
+    prop:is_a "ParmDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202883818811> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "x" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "x" ;
+    prop:storage_class "default_auto" ;
+    prop:type "struct foo_str" ;
+    prop:usr "c:foo.h@143@F@foo#$@S@foo_str#@x" .
+
+<http://smartKT/ns/symbol#104122857777> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 104122857777 ;
+    prop:has_parent <http://smartKT/ns/symbol#102005762127> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#25" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#25" ;
+    prop:is_a "FieldDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#102005762127> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "x" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "x" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@U@month@FI@x" .
+
+<http://smartKT/ns/symbol#104166681645> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Private" ;
+    prop:has_id 104166681645 ;
+    prop:has_parent <http://smartKT/ns/symbol#103889420436> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:is_a "FieldDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103889420436> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "z" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "z" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@FI@z" .
+
+<http://smartKT/ns/symbol#200022218355> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 200022218355 ;
+    prop:has_parent <http://smartKT/ns/symbol#202830954189> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#98" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#98" ;
+    prop:is_a "CXXConstructor" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202830954189> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN7ReptileC4Ev" ;
+    prop:name_token "Reptile" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "Reptile" ;
+    prop:storage_class "default_auto" ;
+    prop:type "void ()" ;
+    prop:usr "c:@S@Reptile@F@Reptile#" .
+
+<http://smartKT/ns/symbol#200242763299> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 200242763299 ;
+    prop:has_parent <http://smartKT/ns/symbol#201838469896> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#25" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#25" ;
+    prop:is_a "FieldDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201838469896> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "x" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "x" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@U@month@FI@x" .
+
+<http://smartKT/ns/symbol#200281864422> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Protected" ;
+    prop:has_id 200281864422 ;
+    prop:has_parent <http://smartKT/ns/symbol#202365494896> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#86",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#90" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#84" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#84" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#90" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202365494896> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Count",
+        "breath",
+        "breathCount" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "breathCount" ;
+    prop:type "int" ;
+    prop:usr "c:@S@Animal@FI@breathCount" .
+
+<http://smartKT/ns/symbol#200405354880> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 200405354880 ;
+    prop:has_parent <http://smartKT/ns/symbol#201654262830> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#48" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#22" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#22" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "d" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "d" ;
+    prop:type "float" ;
+    prop:usr "c:@S@ParentClass@FI@d" .
+
+<http://smartKT/ns/symbol#200461681605> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 200461681605 ;
+    prop:has_parent <http://smartKT/ns/symbol#204001398897> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#64" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#64" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#204001398897> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "do",
+        "do_nothing",
+        "nothing" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "int" ;
+    prop:spelling "do_nothing" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@MI@F@do_nothing#" .
+
+<http://smartKT/ns/symbol#200614767157> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 200614767157 ;
+    prop:has_parent <http://smartKT/ns/symbol#201708876154> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#8" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#8" ;
+    prop:is_a "FieldDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201708876154> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "y" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "y" ;
+    prop:type "int" ;
+    prop:usr "c:@S@foo_str@FI@y" .
+
+<http://smartKT/ns/symbol#200713458525> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 200713458525 ;
+    prop:has_parent <http://smartKT/ns/symbol#201823125702> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201823125702> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "fri" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "fri" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@fri" .
+
+<http://smartKT/ns/symbol#200776192560> prop:absolute_file_path "foo.h" ;
+    prop:has_id 200776192560 ;
+    prop:has_parent <http://smartKT/ns/symbol#202883818811> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#13" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#13" ;
+    prop:is_a "ParmDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202883818811> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "x" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "x" ;
+    prop:storage_class "default_auto" ;
+    prop:type "struct foo_str" ;
+    prop:usr "c:foo.h@143@F@foo#$@S@foo_str#@x" .
+
+<http://smartKT/ns/symbol#201277736766> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 201277736766 ;
+    prop:has_parent <http://smartKT/ns/symbol#201823125702> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201823125702> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "thrus" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "thrus" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@thrus" .
+
+<http://smartKT/ns/symbol#201386170358> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 201386170358 ;
+    prop:has_parent <http://smartKT/ns/symbol#201823125702> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201823125702> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "mon" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "mon" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@mon" .
+
+<http://smartKT/ns/symbol#201522697889> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Private" ;
+    prop:has_id 201522697889 ;
+    prop:has_parent <http://smartKT/ns/symbol#201708876154> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#10" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#10" ;
+    prop:is_a "FieldDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201708876154> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "z" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "z" ;
+    prop:type "int" ;
+    prop:usr "c:@S@foo_str@FI@z" .
+
+<http://smartKT/ns/symbol#201637861782> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 201637861782 ;
+    prop:has_parent <http://smartKT/ns/symbol#202365494896> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#89" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#89" ;
+    prop:is_a "CXXConstructor" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202365494896> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN6AnimalC4Ev" ;
+    prop:name_token "Animal" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "Animal" ;
+    prop:storage_class "default_auto" ;
+    prop:type "void ()" ;
+    prop:usr "c:@S@Animal@F@Animal#" .
+
+<http://smartKT/ns/symbol#201679370587> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Protected" ;
+    prop:has_id 201679370587 ;
+    prop:has_parent <http://smartKT/ns/symbol#202267675586> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#74",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#78" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#72" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#72" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#74",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#78" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202267675586> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Breathing",
+        "is",
+        "isBreathing" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 1 ;
+    prop:spelling "isBreathing" ;
+    prop:type "bool" ;
+    prop:usr "c:@S@LivingThing@FI@isBreathing" .
+
+<http://smartKT/ns/symbol#201704804638> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Private" ;
+    prop:has_id 201704804638 ;
+    prop:has_parent <http://smartKT/ns/symbol#201654262830> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:is_a "FieldDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "z" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "z" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@FI@z" .
+
+<http://smartKT/ns/symbol#201837162357> prop:absolute_file_path "foo.cpp",
+        "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#203975056466> ;
+    prop:has_id 201837162357 ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#6" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:is_a "CXXConstructor",
+        "CallExpr" ;
+    prop:is_called_file "foo.cpp" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201708876154> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "foo",
+        "foo_str",
+        "str" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "foo_str" ;
+    prop:storage_class "default_auto" ;
+    prop:type "struct foo_str",
+        "void (foo_str &&) noexcept" ;
+    prop:usr "c:@S@foo_str@F@foo_str#&&$@S@foo_str#" .
+
+<http://smartKT/ns/symbol#201993100297> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 201993100297 ;
+    prop:has_parent <http://smartKT/ns/symbol#201823125702> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201823125702> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "wed" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "wed" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@wed" .
+
+<http://smartKT/ns/symbol#202080837042> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 202080837042 ;
+    prop:has_parent <http://smartKT/ns/symbol#202837959979> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#38" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#38" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:is_virtual "True" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202837959979> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN13DerivedClass15helloEv" ;
+    prop:name_token "hello" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "hello" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@DerivedClass1@F@hello#" .
+
+<http://smartKT/ns/symbol#202254578207> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 202254578207 ;
+    prop:has_parent <http://smartKT/ns/symbol#201823125702> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201823125702> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "sun" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "sun" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@sun" .
+
+<http://smartKT/ns/symbol#202435584453> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 202435584453 ;
+    prop:has_parent <http://smartKT/ns/symbol#201654262830> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#28" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#28" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:is_virtual "True" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN11ParentClass5helloEv" ;
+    prop:name_token "hello" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "hello" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@ParentClass@F@hello#" .
+
+<http://smartKT/ns/symbol#202470413280> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Protected" ;
+    prop:has_id 202470413280 ;
+    prop:has_parent <http://smartKT/ns/symbol#202267675586> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#73" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#73" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202267675586> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN11LivingThing7breatheEv" ;
+    prop:name_token "breathe" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "breathe" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@LivingThing@F@breathe#" .
+
+<http://smartKT/ns/symbol#202489293523> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 202489293523 ;
+    prop:has_parent <http://smartKT/ns/symbol#201654262830> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#39",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#40",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#44" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#21" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#21" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#44" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "c" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "c" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@FI@c" .
+
+<http://smartKT/ns/symbol#202499524903> prop:absolute_file_path "foo.h" ;
+    prop:has_id 202499524903 ;
+    prop:has_parent <http://smartKT/ns/symbol#200587941848> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#44" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#43" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#43" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#44" ;
+    prop:is_a "DeclRefExpr",
+        "ParmDecl" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#200587941848> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "i" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "i" ;
+    prop:storage_class "default_auto" ;
+    prop:type "int" ;
+    prop:usr "c:foo.h@718@S@DerivedClass1@F@hello#I#@i" .
+
+<http://smartKT/ns/symbol#202519804222> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 202519804222 ;
+    prop:has_parent <http://smartKT/ns/symbol#202267675586> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#77" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#77" ;
+    prop:is_a "CXXConstructor" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202267675586> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN11LivingThingC4Ev" ;
+    prop:name_token "Living",
+        "LivingThing",
+        "Thing" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "LivingThing" ;
+    prop:storage_class "default_auto" ;
+    prop:type "void ()" ;
+    prop:usr "c:@S@LivingThing@F@LivingThing#" .
+
+<http://smartKT/ns/symbol#202651437238> prop:absolute_file_path "foo.cpp",
+        "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 202651437238 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#9",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#32" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#9" ;
+    prop:is_a "FunctionDecl" ;
+    prop:is_defined_file "foo.cpp" ;
+    prop:is_extern_file "foo.h",
+        "foo.h_1" ;
+    prop:is_friend_of <http://smartKT/ns/symbol#103889420436>,
+        <http://smartKT/ns/symbol#201654262830> ;
+    prop:lex_parent_id symbol:,
+        <http://smartKT/ns/symbol#103889420436>,
+        <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_Z23accessFriendClassGlobalv" ;
+    prop:name_token "Class",
+        "Friend",
+        "Global",
+        "access",
+        "accessFriendClassGlobal" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:sem_parent_id symbol: ;
+    prop:spelling "accessFriendClassGlobal" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@F@accessFriendClassGlobal#" .
+
+<http://smartKT/ns/symbol#202849220423> prop:absolute_file_path "foo.cpp",
+        "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 202849220423 ;
+    prop:has_parent <http://smartKT/ns/symbol#202830954189> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#16",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#103",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#99" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#96" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#96" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#16",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#103",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#99" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.cpp",
+        "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202830954189> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Crawling",
+        "is",
+        "isCrawling" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 1 ;
+    prop:spelling "isCrawling" ;
+    prop:type "bool" ;
+    prop:usr "c:@S@Reptile@FI@isCrawling" .
+
+<http://smartKT/ns/symbol#203088067266> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 203088067266 ;
+    prop:has_parent <http://smartKT/ns/symbol#201823125702> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201823125702> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "sat" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "sat" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@sat" .
+
+<http://smartKT/ns/symbol#203193500334> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Protected" ;
+    prop:has_id 203193500334 ;
+    prop:has_parent <http://smartKT/ns/symbol#202830954189> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#102" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#102" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202830954189> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN7Reptile5crawlEv" ;
+    prop:name_token "crawl" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "crawl" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@Reptile@F@crawl#" .
+
+<http://smartKT/ns/symbol#203515374939> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 203515374939 ;
+    prop:has_parent <http://smartKT/ns/symbol#202368561742> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#56" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#56" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202368561742> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Class",
+        "Friend",
+        "access",
+        "accessFriendClass" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "accessFriendClass" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@ParentClass1@F@accessFriendClass#" .
+
+<http://smartKT/ns/symbol#203519282050> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 203519282050 ;
+    prop:has_parent <http://smartKT/ns/symbol#201838469896> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#26" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#26" ;
+    prop:is_a "FieldDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201838469896> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "f" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "f" ;
+    prop:type "float" ;
+    prop:usr "c:@S@ParentClass@U@month@FI@f" .
+
+<http://smartKT/ns/symbol#203673573706> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 203673573706 ;
+    prop:has_parent <http://smartKT/ns/symbol#201823125702> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumConstantDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201823125702> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "tue" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "tue" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days@tue" .
+
+<http://smartKT/ns/symbol#204066726951> prop:absolute_file_path "foo.cpp",
+        "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 204066726951 ;
+    prop:has_parent <http://smartKT/ns/symbol#200345345385> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#10" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#16" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#16" ;
+    prop:is_a "CXXConstructor",
+        "CallExpr" ;
+    prop:is_called_file "foo.cpp" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Class",
+        "Parent",
+        "ParentClass" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:sem_parent_id <http://smartKT/ns/symbol#200345345385> ;
+    prop:spelling "ParentClass" ;
+    prop:storage_class "default_auto" ;
+    prop:type "ParentClass",
+        "void () noexcept" ;
+    prop:usr "c:@S@ParentClass@F@ParentClass#" .
+
+<http://smartKT/ns/symbol#100524783549> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#102523085435> ;
+    prop:has_id 100524783549 ;
+    prop:has_parent <http://smartKT/ns/symbol#202883818811> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#13" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:is_a "CXXConstructor",
+        "CallExpr" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100440782241> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "foo",
+        "foo_str",
+        "str" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:spelling "foo_str" ;
+    prop:storage_class "default_auto" ;
+    prop:type "struct foo_str",
+        "void (const foo_str &) noexcept" ;
+    prop:usr "c:@S@foo_str@F@foo_str#&1$@S@foo_str#" .
+
+<http://smartKT/ns/symbol#101346893938> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Private" ;
+    prop:has_child <http://smartKT/ns/symbol#104081478593> ;
+    prop:has_id 101346893938 ;
+    prop:has_parent <http://smartKT/ns/symbol#103889420436> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#29",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#57" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#29",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#57" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103889420436> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "x" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "x" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@FI@x" .
+
+<http://smartKT/ns/symbol#102160770096> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#102523085435> ;
+    prop:has_id 102160770096 ;
+    prop:has_parent <http://smartKT/ns/symbol#100440782241> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#11" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#7" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#7" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#11" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100440782241> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "x" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:size 4 ;
+    prop:spelling "x" ;
+    prop:type "int" ;
+    prop:usr "c:@S@foo_str@FI@x" .
+
+<http://smartKT/ns/symbol#102868774577> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_id 102868774577 ;
+    prop:has_parent <http://smartKT/ns/symbol#101158910217>,
+        <http://smartKT/ns/symbol#102523085435> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#10",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#12" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:is_a "CXXConstructor",
+        "CallExpr" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100440782241> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "foo",
+        "foo_str",
+        "str" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:sem_parent_id <http://smartKT/ns/symbol#101158910217>,
+        <http://smartKT/ns/symbol#102523085435> ;
+    prop:spelling "foo_str" ;
+    prop:storage_class "default_auto" ;
+    prop:type "struct foo_str",
+        "void () noexcept" ;
+    prop:usr "c:@S@foo_str@F@foo_str#" .
+
+<http://smartKT/ns/symbol#104081478593> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Private" ;
+    prop:has_id 104081478593 ;
+    prop:has_parent <http://smartKT/ns/symbol#101346893938>,
+        <http://smartKT/ns/symbol#101557133083> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#57" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#54" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#54" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101557133083> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "p" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "p" ;
+    prop:type "ParentClass" ;
+    prop:usr "c:@S@ParentClass1@FI@p" .
+
+<http://smartKT/ns/symbol#200933084024> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Private" ;
+    prop:has_id 200933084024 ;
+    prop:has_parent <http://smartKT/ns/symbol#202368561742>,
+        <http://smartKT/ns/symbol#203096629253> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#57" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#54" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#54" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202368561742> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "p" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "p" ;
+    prop:type "ParentClass" ;
+    prop:usr "c:@S@ParentClass1@FI@p" .
+
+<http://smartKT/ns/symbol#203149166802> prop:absolute_file_path "foo.cpp",
+        "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#203975056466> ;
+    prop:has_id 203149166802 ;
+    prop:has_parent <http://smartKT/ns/symbol#201708876154> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#5" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#7" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#7" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.cpp" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201708876154> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "x" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "x" ;
+    prop:type "int" ;
+    prop:usr "c:@S@foo_str@FI@x" .
+
+<http://smartKT/ns/symbol#100093055462> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#100093055462>,
+        <http://smartKT/ns/symbol#101158910217> ;
+    prop:has_id 100093055462 ;
+    prop:has_parent <http://smartKT/ns/symbol#100093055462> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#13" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:is_a "CXXMethod",
+        "CallExpr",
+        "DeclRefExpr" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100440782241> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "operator=" ;
+    prop:param_type "foo_str && noexcept" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:return_type "foo_str &" ;
+    prop:spelling "operator=" ;
+    prop:storage_class "default_auto" ;
+    prop:type "foo_str",
+        "foo_str &(*)(foo_str &&) noexcept",
+        "foo_str &(foo_str &&) noexcept" ;
+    prop:usr "c:@S@foo_str@F@operator=#&&$@S@foo_str#" .
+
+<http://smartKT/ns/symbol#100620950235> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#100620950235> ;
+    prop:has_id 100620950235 ;
+    prop:has_parent <http://smartKT/ns/symbol#100620950235>,
+        <http://smartKT/ns/symbol#104006417771> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#48" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#47" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#47" ;
+    prop:is_a "DeclRefExpr",
+        "ParmDecl" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#104006417771> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "z" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 8 ;
+    prop:spelling "z" ;
+    prop:storage_class "default_auto" ;
+    prop:type "double" ;
+    prop:usr "c:foo.h@765@S@DerivedClass1@F@hello#d#@z" .
+
+<http://smartKT/ns/symbol#100912876953> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Private" ;
+    prop:has_child <http://smartKT/ns/symbol#100912876953> ;
+    prop:has_id 100912876953 ;
+    prop:has_parent <http://smartKT/ns/symbol#100912876953>,
+        <http://smartKT/ns/symbol#103889420436> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#29" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#29" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103889420436> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "y" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "y" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@FI@y" .
+
+<http://smartKT/ns/symbol#101158910217> prop:absolute_file_path "inherit.cpp" ;
+    prop:has_child <http://smartKT/ns/symbol#102868774577> ;
+    prop:has_id 101158910217 ;
+    prop:has_parent <http://smartKT/ns/symbol#100093055462> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#13" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#12" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#12" ;
+    prop:is_a "DeclRefExpr",
+        "VarDecl" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "inherit.cpp" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100252185384> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "y" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:size 12 ;
+    prop:spelling "y" ;
+    prop:storage_class "default_auto" ;
+    prop:type "struct foo_str" ;
+    prop:usr "c:inherit.cpp@223@F@main#@y" .
+
+<http://smartKT/ns/symbol#102181528314> prop:absolute_file_path "inherit.cpp" ;
+    prop:has_child <http://smartKT/ns/symbol#102181528314> ;
+    prop:has_id 102181528314 ;
+    prop:has_parent <http://smartKT/ns/symbol#102181528314>,
+        <http://smartKT/ns/symbol#102446479921> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#20" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#19" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#19" ;
+    prop:is_a "DeclRefExpr",
+        "VarDecl" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "inherit.cpp" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100252185384> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "p" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:size 8 ;
+    prop:spelling "p" ;
+    prop:storage_class "default_auto" ;
+    prop:type "ParentClass *" ;
+    prop:usr "c:inherit.cpp@359@F@main#@p" .
+
+<http://smartKT/ns/symbol#102401806095> prop:absolute_file_path "inherit.cpp" ;
+    prop:has_child <http://smartKT/ns/symbol#103803331192> ;
+    prop:has_id 102401806095 ;
+    prop:has_parent <http://smartKT/ns/symbol#203539464615> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#16" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#15" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#15" ;
+    prop:is_a "DeclRefExpr",
+        "VarDecl" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "inherit.cpp" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100252185384> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "snake" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:size 64 ;
+    prop:spelling "snake" ;
+    prop:storage_class "default_auto" ;
+    prop:type "Snake" ;
+    prop:usr "c:inherit.cpp@291@F@main#@snake" .
+
+<http://smartKT/ns/symbol#200345345385> prop:absolute_file_path "foo.cpp" ;
+    prop:has_child <http://smartKT/ns/symbol#204066726951> ;
+    prop:has_id 200345345385 ;
+    prop:has_parent <http://smartKT/ns/symbol#203096629253> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#11" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#10" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#10" ;
+    prop:is_a "DeclRefExpr",
+        "VarDecl" ;
+    prop:is_called_file "foo.cpp" ;
+    prop:is_defined_file "foo.cpp" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202651437238> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "p" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp" ;
+    prop:size 32 ;
+    prop:spelling "p" ;
+    prop:storage_class "default_auto" ;
+    prop:type "ParentClass" ;
+    prop:usr "c:foo.cpp@207@F@accessFriendClassGlobal#@p" .
+
+<http://smartKT/ns/symbol#200587941848> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#202499524903> ;
+    prop:has_id 200587941848 ;
+    prop:has_parent <http://smartKT/ns/symbol#202837959979> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#43" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#43" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202837959979> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN13DerivedClass15helloEi" ;
+    prop:name_token "hello" ;
+    prop:param_type "int" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "hello" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@DerivedClass1@F@hello#I#" .
+
+<http://smartKT/ns/symbol#201779790909> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#202328318279> ;
+    prop:has_id 201779790909 ;
+    prop:has_parent <http://smartKT/ns/symbol#202837959979> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#47" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#47" ;
+    prop:is_a "CXXMethod" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202837959979> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN13DerivedClass15helloEd" ;
+    prop:name_token "hello" ;
+    prop:param_type "double" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "hello" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@S@DerivedClass1@F@hello#d#" .
+
+<http://smartKT/ns/symbol#202328318279> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#202328318279> ;
+    prop:has_id 202328318279 ;
+    prop:has_parent <http://smartKT/ns/symbol#201779790909>,
+        <http://smartKT/ns/symbol#202328318279> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#48" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#47" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#47" ;
+    prop:is_a "DeclRefExpr",
+        "ParmDecl" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201779790909> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "z" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 8 ;
+    prop:spelling "z" ;
+    prop:storage_class "default_auto" ;
+    prop:type "double" ;
+    prop:usr "c:foo.h@765@S@DerivedClass1@F@hello#d#@z" .
+
+<http://smartKT/ns/symbol#202885232429> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Private" ;
+    prop:has_child <http://smartKT/ns/symbol#202885232429> ;
+    prop:has_id 202885232429 ;
+    prop:has_parent <http://smartKT/ns/symbol#201654262830>,
+        <http://smartKT/ns/symbol#202885232429> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#29" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#29" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "y" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "y" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@FI@y" .
+
+<http://smartKT/ns/symbol#203096629253> prop:absolute_file_path "foo.cpp",
+        "foo.h" ;
+    prop:access_specifier "Private" ;
+    prop:has_child <http://smartKT/ns/symbol#200345345385>,
+        <http://smartKT/ns/symbol#200933084024> ;
+    prop:has_id 203096629253 ;
+    prop:has_parent <http://smartKT/ns/symbol#201654262830> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#11",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#29",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#57" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#17" ;
+    prop:isWritten_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#11",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#29",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#57" ;
+    prop:is_a "FieldDecl",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.cpp",
+        "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "x" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 4 ;
+    prop:spelling "x" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@FI@x" .
+
+<http://smartKT/ns/symbol#203282426031> prop:absolute_file_path "foo.cpp",
+        "foo.h" ;
+    prop:access_specifier "Protected" ;
+    prop:has_child <http://smartKT/ns/symbol#203282426031> ;
+    prop:has_id 203282426031 ;
+    prop:has_parent <http://smartKT/ns/symbol#202365494896>,
+        <http://smartKT/ns/symbol#203282426031> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#15" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#85" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#85" ;
+    prop:is_a "CXXMethod",
+        "CallExpr",
+        "MemberRefExpr" ;
+    prop:is_called_file "foo.cpp" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202365494896> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN6Animal7breatheEv" ;
+    prop:name_token "breathe" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:return_type "void" ;
+    prop:spelling "breathe" ;
+    prop:storage_class "default_auto" ;
+    prop:type "<bound member function type>",
+        "void" ;
+    prop:usr "c:@S@Animal@F@breathe#" .
+
+<http://smartKT/ns/symbol#101402665881> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#100440782241>,
+        <http://smartKT/ns/symbol#102873800654>,
+        <http://smartKT/ns/symbol#103889420436> ;
+    prop:has_id 101402665881 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#62" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#62" ;
+    prop:is_a "StructDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:is_subclass_of <http://smartKT/ns/symbol#100440782241>,
+        <http://smartKT/ns/symbol#103889420436> ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:multiple_inheritance "True" ;
+    prop:name_token "I",
+        "M",
+        "MI" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "MI" ;
+    prop:type "MI" ;
+    prop:usr "c:@S@MI" .
+
+<http://smartKT/ns/symbol#101557133083> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#101907124604>,
+        <http://smartKT/ns/symbol#104081478593> ;
+    prop:has_id 101557133083 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#53" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#53" ;
+    prop:is_a "ClassDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:is_friend_of <http://smartKT/ns/symbol#103889420436> ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Class1",
+        "Parent",
+        "ParentClass1" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "ParentClass1" ;
+    prop:type "ParentClass1" ;
+    prop:usr "c:@S@ParentClass1" .
+
+<http://smartKT/ns/symbol#102446479921> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#102181528314>,
+        <http://smartKT/ns/symbol#102446479921> ;
+    prop:has_id 102446479921 ;
+    prop:has_parent <http://smartKT/ns/symbol#102446479921>,
+        <http://smartKT/ns/symbol#103889420436> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#20" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#28" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#28" ;
+    prop:is_a "CXXMethod",
+        "CallExpr",
+        "MemberRefExpr" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.h" ;
+    prop:is_virtual "True" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103889420436> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN11ParentClass5helloEv" ;
+    prop:name_token "hello" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:return_type "void" ;
+    prop:spelling "hello" ;
+    prop:storage_class "default_auto" ;
+    prop:type "<bound member function type>",
+        "void" ;
+    prop:usr "c:@S@ParentClass@F@hello#" .
+
+<http://smartKT/ns/symbol#102672429341> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Private" ;
+    prop:has_child <http://smartKT/ns/symbol#102672429341> ;
+    prop:has_id 102672429341 ;
+    prop:has_parent <http://smartKT/ns/symbol#102672429341>,
+        <http://smartKT/ns/symbol#103889420436>,
+        <http://smartKT/ns/symbol#201654262830> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#29" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#18",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#4" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#4" ;
+    prop:isRead_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#29" ;
+    prop:is_a "DeclRefExpr",
+        "VarDecl" ;
+    prop:is_called_file "foo.h",
+        "foo.h_1" ;
+    prop:is_defined_file "inherit.cpp" ;
+    prop:is_extern_file "foo.h",
+        "foo.h_1" ;
+    prop:is_static "True" ;
+    prop:lex_parent_id symbol:,
+        <http://smartKT/ns/symbol#103889420436>,
+        <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "a" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:sem_parent_id <http://smartKT/ns/symbol#103889420436> ;
+    prop:size 4 ;
+    prop:spelling "a" ;
+    prop:storage_class "default_auto",
+        "static" ;
+    prop:type "int" ;
+    prop:usr "c:@S@ParentClass@a" .
+
+<http://smartKT/ns/symbol#103458961946> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#103458961946> ;
+    prop:has_id 103458961946 ;
+    prop:has_parent <http://smartKT/ns/symbol#103458961946>,
+        <http://smartKT/ns/symbol#103889420436>,
+        <http://smartKT/ns/symbol#201654262830> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#39" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#20",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#5" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#5" ;
+    prop:is_a "DeclRefExpr",
+        "VarDecl" ;
+    prop:is_called_file "foo.h",
+        "foo.h_1" ;
+    prop:is_defined_file "inherit.cpp" ;
+    prop:is_extern_file "foo.h",
+        "foo.h_1" ;
+    prop:is_static "True" ;
+    prop:lex_parent_id symbol:,
+        <http://smartKT/ns/symbol#103889420436>,
+        <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "b" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:sem_parent_id <http://smartKT/ns/symbol#103889420436> ;
+    prop:size 4 ;
+    prop:spelling "b" ;
+    prop:storage_class "default_auto",
+        "static" ;
+    prop:type "const int",
+        "int" ;
+    prop:usr "c:@S@ParentClass@b" .
+
+<http://smartKT/ns/symbol#104292874567> prop:absolute_file_path "inherit.cpp" ;
+    prop:has_child <http://smartKT/ns/symbol#101410785021> ;
+    prop:has_id 104292874567 ;
+    prop:has_parent <http://smartKT/ns/symbol#101783148214>,
+        <http://smartKT/ns/symbol#104006417771> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#22",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#23" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#21" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#21" ;
+    prop:is_a "DeclRefExpr",
+        "VarDecl" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "inherit.cpp" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100252185384> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "d" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:size 32 ;
+    prop:spelling "d" ;
+    prop:storage_class "default_auto" ;
+    prop:type "DerivedClass1" ;
+    prop:usr "c:inherit.cpp@448@F@main#@d" .
+
+<http://smartKT/ns/symbol#202368561742> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#200933084024>,
+        <http://smartKT/ns/symbol#203515374939> ;
+    prop:has_id 202368561742 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#53" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#53" ;
+    prop:is_a "ClassDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:is_friend_of <http://smartKT/ns/symbol#201654262830> ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Class1",
+        "Parent",
+        "ParentClass1" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "ParentClass1" ;
+    prop:type "ParentClass1" ;
+    prop:usr "c:@S@ParentClass1" .
+
+<http://smartKT/ns/symbol#204001398897> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#200461681605>,
+        <http://smartKT/ns/symbol#201654262830>,
+        <http://smartKT/ns/symbol#201708876154> ;
+    prop:has_id 204001398897 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#62" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#62" ;
+    prop:is_a "StructDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:is_subclass_of <http://smartKT/ns/symbol#201654262830>,
+        <http://smartKT/ns/symbol#201708876154> ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:multiple_inheritance "True" ;
+    prop:name_token "I",
+        "M",
+        "MI" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "MI" ;
+    prop:type "MI" ;
+    prop:usr "c:@S@MI" .
+
+<http://smartKT/ns/symbol#100252185384> prop:absolute_file_path "inherit.cpp" ;
+    prop:has_id 100252185384 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#8" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#8" ;
+    prop:is_a "FunctionDecl" ;
+    prop:is_defined_file "inherit.cpp" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "main" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:return_type "int" ;
+    prop:spelling "main" ;
+    prop:storage_class "default_auto" ;
+    prop:usr "c:@F@main#" .
+
+<http://smartKT/ns/symbol#102005762127> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#102177005309>,
+        <http://smartKT/ns/symbol#104122857777> ;
+    prop:has_id 102005762127 ;
+    prop:has_parent <http://smartKT/ns/symbol#103889420436> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#24" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#24" ;
+    prop:is_a "UnionDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103889420436> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "month" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "month" ;
+    prop:type "ParentClass::month" ;
+    prop:usr "c:@S@ParentClass@U@month" .
+
+<http://smartKT/ns/symbol#201838469896> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#200242763299>,
+        <http://smartKT/ns/symbol#203519282050> ;
+    prop:has_id 201838469896 ;
+    prop:has_parent <http://smartKT/ns/symbol#201654262830> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#24" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#24" ;
+    prop:is_a "UnionDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "month" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "month" ;
+    prop:type "ParentClass::month" ;
+    prop:usr "c:@S@ParentClass@U@month" .
+
+<http://smartKT/ns/symbol#203539464615> prop:absolute_file_path "foo.cpp",
+        "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#102401806095>,
+        <http://smartKT/ns/symbol#203539464615> ;
+    prop:has_id 203539464615 ;
+    prop:has_parent <http://smartKT/ns/symbol#102713208203>,
+        <http://smartKT/ns/symbol#200961799742>,
+        <http://smartKT/ns/symbol#203539464615> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#16" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#14",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#109" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#14" ;
+    prop:is_a "CXXMethod",
+        "CallExpr",
+        "MemberRefExpr" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.cpp" ;
+    prop:is_extern_file "foo.h",
+        "foo.h_1" ;
+    prop:lex_parent_id symbol:,
+        <http://smartKT/ns/symbol#102713208203>,
+        <http://smartKT/ns/symbol#200961799742> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN5Snake5crawlEv" ;
+    prop:name_token "crawl" ;
+    prop:param_type "" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:return_type "void" ;
+    prop:sem_parent_id <http://smartKT/ns/symbol#200961799742> ;
+    prop:spelling "crawl" ;
+    prop:storage_class "default_auto" ;
+    prop:type "<bound member function type>",
+        "void" ;
+    prop:usr "c:@S@Snake@F@crawl#" .
+
+<http://smartKT/ns/symbol#203975056466> prop:absolute_file_path "foo.cpp" ;
+    prop:has_child <http://smartKT/ns/symbol#203975056466> ;
+    prop:has_id 203975056466 ;
+    prop:has_parent <http://smartKT/ns/symbol#201837162357>,
+        <http://smartKT/ns/symbol#202883818811>,
+        <http://smartKT/ns/symbol#203149166802>,
+        <http://smartKT/ns/symbol#203975056466> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#5",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#6" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#3" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#3" ;
+    prop:is_a "DeclRefExpr",
+        "ParmDecl" ;
+    prop:is_called_file "foo.cpp" ;
+    prop:is_defined_file "foo.cpp" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#202883818811> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "x" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp" ;
+    prop:size 12 ;
+    prop:spelling "x" ;
+    prop:storage_class "default_auto" ;
+    prop:type "struct foo_str" ;
+    prop:usr "c:foo.cpp@93@F@foo#$@S@foo_str#@x" .
+
+<http://smartKT/ns/symbol#101783148214> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#101090505190>,
+        <http://smartKT/ns/symbol#101783148214>,
+        <http://smartKT/ns/symbol#104292874567> ;
+    prop:has_id 101783148214 ;
+    prop:has_parent <http://smartKT/ns/symbol#101783148214>,
+        <http://smartKT/ns/symbol#101807164044> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#22" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#43" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#43" ;
+    prop:is_a "CXXMethod",
+        "CallExpr",
+        "MemberRefExpr" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101807164044> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN13DerivedClass15helloEi" ;
+    prop:name_token "hello" ;
+    prop:param_type "int" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:return_type "void" ;
+    prop:spelling "hello" ;
+    prop:storage_class "default_auto" ;
+    prop:type "<bound member function type>",
+        "void" ;
+    prop:usr "c:@S@DerivedClass1@F@hello#I#" .
+
+<http://smartKT/ns/symbol#102523085435> prop:absolute_file_path "inherit.cpp" ;
+    prop:has_child <http://smartKT/ns/symbol#102523085435>,
+        <http://smartKT/ns/symbol#102868774577> ;
+    prop:has_id 102523085435 ;
+    prop:has_parent <http://smartKT/ns/symbol#100524783549>,
+        <http://smartKT/ns/symbol#102160770096>,
+        <http://smartKT/ns/symbol#102523085435> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#11",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#13" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#10" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#10" ;
+    prop:is_a "DeclRefExpr",
+        "VarDecl" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "inherit.cpp" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#100252185384> ;
+    prop:linkage_kind "auto" ;
+    prop:name_token "x" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:size 12 ;
+    prop:spelling "x" ;
+    prop:storage_class "default_auto" ;
+    prop:type "const struct foo_str",
+        "struct foo_str" ;
+    prop:usr "c:inherit.cpp@188@F@main#@x" .
+
+<http://smartKT/ns/symbol#102713208203> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#101502865278>,
+        <http://smartKT/ns/symbol#103010268972>,
+        <http://smartKT/ns/symbol#103889420436>,
+        <http://smartKT/ns/symbol#203539464615> ;
+    prop:has_id 102713208203 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107" ;
+    prop:is_a "ClassDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:is_subclass_of <http://smartKT/ns/symbol#101502865278>,
+        <http://smartKT/ns/symbol#103010268972>,
+        <http://smartKT/ns/symbol#103889420436> ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:multiple_inheritance "True" ;
+    prop:name_token "Snake" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "Snake" ;
+    prop:type "Snake" ;
+    prop:usr "c:@S@Snake" .
+
+<http://smartKT/ns/symbol#104006417771> prop:absolute_file_path "foo.h",
+        "inherit.cpp" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#100620950235>,
+        <http://smartKT/ns/symbol#104006417771>,
+        <http://smartKT/ns/symbol#104292874567> ;
+    prop:has_id 104006417771 ;
+    prop:has_parent <http://smartKT/ns/symbol#101807164044>,
+        <http://smartKT/ns/symbol#104006417771> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#23" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#47" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#47" ;
+    prop:is_a "CXXMethod",
+        "CallExpr",
+        "MemberRefExpr" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#101807164044> ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_ZN13DerivedClass15helloEd" ;
+    prop:name_token "hello" ;
+    prop:param_type "double" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:return_type "void" ;
+    prop:spelling "hello" ;
+    prop:storage_class "default_auto" ;
+    prop:type "<bound member function type>",
+        "void" ;
+    prop:usr "c:@S@DerivedClass1@F@hello#d#" .
+
+<http://smartKT/ns/symbol#200961799742> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#201654262830>,
+        <http://smartKT/ns/symbol#202365494896>,
+        <http://smartKT/ns/symbol#202830954189>,
+        <http://smartKT/ns/symbol#203539464615> ;
+    prop:has_id 200961799742 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107" ;
+    prop:is_a "ClassDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:is_subclass_of <http://smartKT/ns/symbol#201654262830>,
+        <http://smartKT/ns/symbol#202365494896>,
+        <http://smartKT/ns/symbol#202830954189> ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:multiple_inheritance "True" ;
+    prop:name_token "Snake" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "Snake" ;
+    prop:type "Snake" ;
+    prop:usr "c:@S@Snake" .
+
+<http://smartKT/ns/symbol#202837959979> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#200587941848>,
+        <http://smartKT/ns/symbol#201654262830>,
+        <http://smartKT/ns/symbol#201779790909>,
+        <http://smartKT/ns/symbol#202080837042> ;
+    prop:has_id 202837959979 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#36" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#36" ;
+    prop:is_a "ClassDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:is_subclass_of <http://smartKT/ns/symbol#201654262830> ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Class1",
+        "Derived",
+        "DerivedClass1" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "DerivedClass1" ;
+    prop:type "DerivedClass1" ;
+    prop:usr "c:@S@DerivedClass1" .
+
+<http://smartKT/ns/symbol#101807164044> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#101783148214>,
+        <http://smartKT/ns/symbol#102451926470>,
+        <http://smartKT/ns/symbol#103889420436>,
+        <http://smartKT/ns/symbol#104006417771> ;
+    prop:has_id 101807164044 ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#36" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#36" ;
+    prop:is_a "ClassDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:is_subclass_of <http://smartKT/ns/symbol#103889420436> ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Class1",
+        "Derived",
+        "DerivedClass1" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "DerivedClass1" ;
+    prop:type "DerivedClass1" ;
+    prop:usr "c:@S@DerivedClass1" .
+
+<http://smartKT/ns/symbol#101502865278> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#100290926350>,
+        <http://smartKT/ns/symbol#100787762411>,
+        <http://smartKT/ns/symbol#101471049563>,
+        <http://smartKT/ns/symbol#101623684699> ;
+    prop:has_id 101502865278 ;
+    prop:has_parent <http://smartKT/ns/symbol#102713208203> ;
+    prop:inheritance_kind "Protected" ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#82" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#82" ;
+    prop:is_a "CXXBaseClassSpecifier",
+        "ClassDecl" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:is_subclass_of <http://smartKT/ns/symbol#101471049563> ;
+    prop:is_virtual "True" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Animal",
+        "class",
+        "class Animal" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 16 ;
+    prop:spelling "Animal",
+        "class Animal" ;
+    prop:storage_class "static" ;
+    prop:type "Animal" ;
+    prop:usr "c:@S@Animal" .
+
+<http://smartKT/ns/symbol#103010268972> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#100268800750>,
+        <http://smartKT/ns/symbol#100321819153>,
+        <http://smartKT/ns/symbol#100535905044>,
+        <http://smartKT/ns/symbol#101471049563> ;
+    prop:has_id 103010268972 ;
+    prop:has_parent <http://smartKT/ns/symbol#102713208203> ;
+    prop:inheritance_kind "Private" ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#94" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#94" ;
+    prop:is_a "CXXBaseClassSpecifier",
+        "ClassDecl" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:is_subclass_of <http://smartKT/ns/symbol#101471049563> ;
+    prop:is_virtual "True" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Reptile",
+        "class",
+        "class Reptile" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 16 ;
+    prop:spelling "Reptile",
+        "class Reptile" ;
+    prop:type "Reptile" ;
+    prop:usr "c:@S@Reptile" .
+
+<http://smartKT/ns/symbol#201708876154> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#200614767157>,
+        <http://smartKT/ns/symbol#201522697889>,
+        <http://smartKT/ns/symbol#203149166802> ;
+    prop:has_id 201708876154 ;
+    prop:has_parent <http://smartKT/ns/symbol#204001398897> ;
+    prop:inheritance_kind "Public" ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#62" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:is_a "CXXBaseClassSpecifier",
+        "StructDecl" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "foo",
+        "foo_str",
+        "str",
+        "struct",
+        "struct foo_str" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 12 ;
+    prop:spelling "foo_str",
+        "struct foo_str" ;
+    prop:type "foo_str" ;
+    prop:usr "c:@S@foo_str" .
+
+<http://smartKT/ns/symbol#202365494896> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#200281864422>,
+        <http://smartKT/ns/symbol#201637861782>,
+        <http://smartKT/ns/symbol#202267675586>,
+        <http://smartKT/ns/symbol#203282426031> ;
+    prop:has_id 202365494896 ;
+    prop:has_parent <http://smartKT/ns/symbol#200961799742> ;
+    prop:inheritance_kind "Protected" ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#82" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#82" ;
+    prop:is_a "CXXBaseClassSpecifier",
+        "ClassDecl" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:is_subclass_of <http://smartKT/ns/symbol#202267675586> ;
+    prop:is_virtual "True" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Animal",
+        "class",
+        "class Animal" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 16 ;
+    prop:spelling "Animal",
+        "class Animal" ;
+    prop:storage_class "static" ;
+    prop:type "Animal" ;
+    prop:usr "c:@S@Animal" .
+
+<http://smartKT/ns/symbol#202830954189> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#200022218355>,
+        <http://smartKT/ns/symbol#202267675586>,
+        <http://smartKT/ns/symbol#202849220423>,
+        <http://smartKT/ns/symbol#203193500334> ;
+    prop:has_id 202830954189 ;
+    prop:has_parent <http://smartKT/ns/symbol#200961799742> ;
+    prop:inheritance_kind "Private" ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#94" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#94" ;
+    prop:is_a "CXXBaseClassSpecifier",
+        "ClassDecl" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:is_subclass_of <http://smartKT/ns/symbol#202267675586> ;
+    prop:is_virtual "True" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Reptile",
+        "class",
+        "class Reptile" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 16 ;
+    prop:spelling "Reptile",
+        "class Reptile" ;
+    prop:type "Reptile" ;
+    prop:usr "c:@S@Reptile" .
+
+<http://smartKT/ns/symbol#202883818811> prop:absolute_file_path "foo.cpp",
+        "foo.h",
+        "inherit.cpp" ;
+    prop:has_child <http://smartKT/ns/symbol#100524783549>,
+        <http://smartKT/ns/symbol#104106297673>,
+        <http://smartKT/ns/symbol#200776192560>,
+        <http://smartKT/ns/symbol#202883818811>,
+        <http://smartKT/ns/symbol#203975056466> ;
+    prop:has_id 202883818811 ;
+    prop:has_parent <http://smartKT/ns/symbol#202883818811> ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp#13" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#3",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#13" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp#3" ;
+    prop:is_a "CallExpr",
+        "DeclRefExpr",
+        "FunctionDecl" ;
+    prop:is_called_file "inherit.cpp" ;
+    prop:is_defined_file "foo.cpp" ;
+    prop:is_extern_file "foo.h",
+        "foo.h_1" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:mangled_name "_Z3foo7foo_str" ;
+    prop:name_token "foo" ;
+    prop:param_type "struct foo_str" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.cpp",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/src/inherit.cpp" ;
+    prop:return_type "struct foo_str" ;
+    prop:spelling "foo" ;
+    prop:storage_class "default_auto" ;
+    prop:type "struct foo_str",
+        "struct foo_str (*)(struct foo_str)",
+        "struct foo_str (struct foo_str)" ;
+    prop:usr "c:@F@foo#$@S@foo_str#" .
+
+<http://smartKT/ns/symbol#101471049563> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#100218304836>,
+        <http://smartKT/ns/symbol#102542201437>,
+        <http://smartKT/ns/symbol#102694670267> ;
+    prop:has_id 101471049563 ;
+    prop:has_parent <http://smartKT/ns/symbol#101502865278>,
+        <http://smartKT/ns/symbol#103010268972> ;
+    prop:inheritance_kind "Protected",
+        "Public" ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#82",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#94" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#70" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#70" ;
+    prop:is_a "CXXBaseClassSpecifier",
+        "ClassDecl" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Living",
+        "LivingThing",
+        "Thing",
+        "class",
+        "class LivingThing" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 1 ;
+    prop:spelling "LivingThing",
+        "class LivingThing" ;
+    prop:type "LivingThing" ;
+    prop:usr "c:@S@LivingThing" .
+
+<http://smartKT/ns/symbol#202267675586> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#201679370587>,
+        <http://smartKT/ns/symbol#202470413280>,
+        <http://smartKT/ns/symbol#202519804222> ;
+    prop:has_id 202267675586 ;
+    prop:has_parent <http://smartKT/ns/symbol#202365494896>,
+        <http://smartKT/ns/symbol#202830954189> ;
+    prop:inheritance_kind "Protected",
+        "Public" ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#82",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#94" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#70" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#70" ;
+    prop:is_a "CXXBaseClassSpecifier",
+        "ClassDecl" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Living",
+        "LivingThing",
+        "Thing",
+        "class",
+        "class LivingThing" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 1 ;
+    prop:spelling "LivingThing",
+        "class LivingThing" ;
+    prop:type "LivingThing" ;
+    prop:usr "c:@S@LivingThing" .
+
+<http://smartKT/ns/symbol#100440782241> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#102160770096>,
+        <http://smartKT/ns/symbol#102909343051>,
+        <http://smartKT/ns/symbol#103134680686> ;
+    prop:has_id 100440782241 ;
+    prop:has_parent <http://smartKT/ns/symbol#101402665881> ;
+    prop:inheritance_kind "Public" ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#62" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#6" ;
+    prop:is_a "CXXBaseClassSpecifier",
+        "StructDecl" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "foo",
+        "foo_str",
+        "str",
+        "struct",
+        "struct foo_str" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:size 12 ;
+    prop:spelling "foo_str",
+        "struct foo_str" ;
+    prop:type "foo_str" ;
+    prop:usr "c:@S@foo_str" .
+
+<http://smartKT/ns/symbol#103292456156> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#100152287774>,
+        <http://smartKT/ns/symbol#100448278105>,
+        <http://smartKT/ns/symbol#101469655496>,
+        <http://smartKT/ns/symbol#101780044710>,
+        <http://smartKT/ns/symbol#101808537163>,
+        <http://smartKT/ns/symbol#102261622387>,
+        <http://smartKT/ns/symbol#102609072568> ;
+    prop:has_id 103292456156 ;
+    prop:has_parent <http://smartKT/ns/symbol#103889420436> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumDecl" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#103889420436> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "days" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "days" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days" .
+
+<http://smartKT/ns/symbol#201823125702> prop:absolute_file_path "foo.h" ;
+    prop:access_specifier "Public" ;
+    prop:has_child <http://smartKT/ns/symbol#200713458525>,
+        <http://smartKT/ns/symbol#201277736766>,
+        <http://smartKT/ns/symbol#201386170358>,
+        <http://smartKT/ns/symbol#201993100297>,
+        <http://smartKT/ns/symbol#202254578207>,
+        <http://smartKT/ns/symbol#203088067266>,
+        <http://smartKT/ns/symbol#203673573706> ;
+    prop:has_id 201823125702 ;
+    prop:has_parent <http://smartKT/ns/symbol#201654262830> ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#23" ;
+    prop:is_a "EnumDecl" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id <http://smartKT/ns/symbol#201654262830> ;
+    prop:linkage_kind "external" ;
+    prop:name_token "days" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "days" ;
+    prop:type "ParentClass::days" ;
+    prop:usr "c:@S@ParentClass@E@days" .
+
+<http://smartKT/ns/symbol#201654262830> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#102672429341>,
+        <http://smartKT/ns/symbol#103458961946>,
+        <http://smartKT/ns/symbol#200405354880>,
+        <http://smartKT/ns/symbol#201704804638>,
+        <http://smartKT/ns/symbol#201823125702>,
+        <http://smartKT/ns/symbol#201838469896>,
+        <http://smartKT/ns/symbol#202435584453>,
+        <http://smartKT/ns/symbol#202489293523>,
+        <http://smartKT/ns/symbol#202885232429>,
+        <http://smartKT/ns/symbol#203096629253> ;
+    prop:has_id 201654262830 ;
+    prop:has_parent <http://smartKT/ns/symbol#200961799742>,
+        <http://smartKT/ns/symbol#202837959979>,
+        <http://smartKT/ns/symbol#204001398897> ;
+    prop:inheritance_kind "Private",
+        "Public" ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#36",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#62" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#16" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#16" ;
+    prop:is_a "CXXBaseClassSpecifier",
+        "ClassDecl" ;
+    prop:is_called_file "foo.h_1" ;
+    prop:is_defined_file "foo.h_1" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Class",
+        "Parent",
+        "ParentClass",
+        "class",
+        "class ParentClass" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "ParentClass",
+        "class ParentClass" ;
+    prop:type "ParentClass" ;
+    prop:usr "c:@S@ParentClass" .
+
+<http://smartKT/ns/symbol#103889420436> prop:absolute_file_path "foo.h" ;
+    prop:has_child <http://smartKT/ns/symbol#100912876953>,
+        <http://smartKT/ns/symbol#101346893938>,
+        <http://smartKT/ns/symbol#101848948381>,
+        <http://smartKT/ns/symbol#102005762127>,
+        <http://smartKT/ns/symbol#102446479921>,
+        <http://smartKT/ns/symbol#102672429341>,
+        <http://smartKT/ns/symbol#102754981009>,
+        <http://smartKT/ns/symbol#103292456156>,
+        <http://smartKT/ns/symbol#103458961946>,
+        <http://smartKT/ns/symbol#104166681645> ;
+    prop:has_id 103889420436 ;
+    prop:has_parent <http://smartKT/ns/symbol#101402665881>,
+        <http://smartKT/ns/symbol#101807164044>,
+        <http://smartKT/ns/symbol#102713208203> ;
+    prop:inheritance_kind "Private",
+        "Public" ;
+    prop:isCall_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#107",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#36",
+        "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#62" ;
+    prop:isDecl_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#16" ;
+    prop:isDef_file_line "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h#16" ;
+    prop:is_a "CXXBaseClassSpecifier",
+        "ClassDecl" ;
+    prop:is_called_file "foo.h" ;
+    prop:is_defined_file "foo.h" ;
+    prop:lex_parent_id symbol: ;
+    prop:linkage_kind "external" ;
+    prop:name_token "Class",
+        "Parent",
+        "ParentClass",
+        "class",
+        "class ParentClass" ;
+    prop:relative_file_path "/data/user-home/srijoni/PIN_Tests/smartKT/testsuite/inherit/lib/foo.h" ;
+    prop:spelling "ParentClass",
+        "class ParentClass" ;
+    prop:type "ParentClass" ;
+    prop:usr "c:@S@ParentClass" .
+

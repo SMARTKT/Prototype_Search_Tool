@@ -1,0 +1,347 @@
+we can analyse whether the query has just variable then we can direct it towards the variable templates. So we can seperate function, variable templates 
+
+
+
+1) Which are the variables with "float" datatype
+2) Under which function is the variable "png_ptr" defined
+3) List all the functions that are using the global variable "stdin" in file "pngwtran.c"       --to do
+4) List all the functions which has “i” as a local variable
+5) List the functions with return type "int" in file pngget.c
+6) List all the functions with three parameters
+7) List all the variables that are never read
+8) List down all the global variables in file "pngget.c"
+9) List down all the "PUBLIC" functions
+10) What is the return value of the function "png_user_version_check"
+11) What is the work done by function "png_write_chunk"
+12) Where is the function "png_user_version_check" defined
+13) Under which file is the variable "png_ptr" defined
+14) what is the size of variable "length" in file "pngpriv.h"
+15) List all the parameters of the function "translate_gamma_flags"                               
+16) which file has the max no of variables declared inside it                                     
+17) which function has max no of parameters                                                       
+18) How many global variables are read while executing the file "pngtest.c"                       
+19) How many variables where updated during the execution of the function "png_set_longjmp_fn"   --to do
+20) Where is the variable "red_y" defined
+21) How many variables share the same name                                                        
+22) How many variables have the name "red_y"
+23) List down all the comments in the scope of a function 
+24) How many global variables where updated while executing the file "pngtest.c"
+25) Which function called the function "png_read_info@plt" 
+
+
+26) How many threads have executed the function "png_read_info@plt"
+27) How many global variables are synchronously accessed by threads
+28) Which data structures are used in the file "pngget.c" ---
+29) How many threads are accessing the global variable "strict" 
+30) What are all possible run-time errors on executing the file "pngread.c" -- REFRAME  
+31) List the global variables in the file "pngget.c" that are used in an algorithm which have synchronized accesses by threads
+
+
+what is the comment associated with all the function accessing global variable in a file
+what comments are associated with a function in a file
+what does a function do in a file -- program domain and problem domain
+what is the role of a function that acesses this global variable / static / extern in file
+function return type
+which comments give you information about data-structures / memory in a specific file
+these comments are related to which identifiers
+
+for how many global variables we hav asynchronised/sync access by which threads
+are there any chances of getting race condition for a global var --- python layer over results (SPARQL)
+
+a comment is associated with how many identifiers
+
+
+
+place difft headers over queries as to which files attributes they are using
+use actual attribute names mostly
+
+
+all possible single,dynamic,comment
+then linking function,variable
+
+for static have two attributes as a query
+
+
+
+
+
+1)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+
+SELECT ?name
+WHERE
+{
+	?var prop:name ?name ;
+ 	prop:is ?scope;
+ 	prop:type "float" .
+ 	FILTER (?scope IN ("Global", "Local", "Param") ) .
+ 	FILTER strStarts(str(?var),str(variable:)) .
+}
+
+2)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?fname
+WHERE
+{
+	?var prop:name "png_ptr" ;
+ 		 prop:parent_id ?id .
+ 	?func prop:has_id ?id ;
+ 	      prop:name ?fname .
+ 	FILTER strStarts(str(?var),str(variable:)) .
+ 	FILTER strStarts(str(?func),str(function:)) .
+}
+
+3) if the global variable is extern then multiple functions can update it otherwise only the functions that are there in that file but for libpng mostly global variables have storage class extern
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?fname
+WHERE
+{
+	?var prop:name "stdin" ;
+		 prop:is "Global" ;
+ 		 prop:is_defined "pngwtran.c" .
+ 	     prop:is_updated ?fname .
+ 	FILTER strStarts(str(?var),str(variable:)) .
+}
+
+4)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?name
+WHERE
+{
+   ?var prop:name "i" ;
+      prop:parent_id ?id ;
+       prop:is "Local" .
+ ?s prop:name ?name ;
+      prop:has_id ?id .
+ FILTER strStarts(str(?var),str(variable:)) .
+ FILTER strStarts(str(?s),str(function:)) .
+}
+
+5)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?name
+WHERE
+{
+    ?func prop:return_type "int" ;
+          prop:is_defined "pngget.c" ;
+          prop:name ?name .
+    FILTER strStarts(str(?func),str(function:)) .
+}
+
+6)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?id ?fname (COUNT(*) AS ?ccount)
+WHERE
+{
+    ?func prop:name ?fname ;
+          prop:has_id ?id .
+    ?var  prop:is "Param" ;
+          prop:parent_id ?id ;
+          prop:name ?vname .
+    FILTER strStarts(str(?func),str(function:)) .
+    FILTER strStarts(str(?var),str(variable:)) .
+}
+GROUP BY ?id ?fname
+HAVING (COUNT(*) > 3)
+
+7)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?name
+WHERE
+{
+    ?var prop:name ?name ;
+         prop:read_count 0 .
+    FILTER strStarts(str(?var),str(variable:)) .
+}
+
+8)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?name
+WHERE
+{
+    ?var prop:name ?name ;
+           prop:is "Global" ;
+           prop:parent_id ?id .
+    ?func prop:is_defined "pngget.c" ;
+            prop:has_id ?id .
+    FILTER strStarts(str(?func),str(function:)) .
+    FILTER strStarts(str(?var),str(variable:)) .
+}
+
+9)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?fname
+WHERE
+{
+ 	?func prop:name ?fname ;
+ 	      prop:access_specifier "PUBLIC" .
+ 	FILTER strStarts(str(?func),str(function:)) .
+}
+
+
+10)	Return value info not included yet since func ids in static and dynamic don't match
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?val
+WHERE
+{
+ 	?func prop:has_value ?val ;
+ 	      prop:name "png_user_version_check" .
+ 	FILTER strStarts(str(?func),str(function:)) .
+}
+
+12)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?file
+WHERE
+{
+    ?func prop:is_defined ?file ;
+          prop:name "png_user_version_check" .
+    FILTER strStarts(str(?func),str(function:)) .
+}
+
+13)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+
+SELECT ?file
+WHERE
+{
+    ?var prop:is_defined ?file ;
+         prop:name "png_ptr" .
+    FILTER strStarts(str(?var),str(variable:)) .
+}
+
+14)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+
+SELECT ?siz
+WHERE
+{
+	?var prop:name "length" ;
+	     prop:is_defined "pngpriv.h" ;
+	     prop:size ?siz .
+ 	FILTER strStarts(str(?var),str(variable:)) .
+}
+
+15)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?var
+WHERE
+{
+    ?func prop:name "translate_gamma_flags" ;
+          prop:has_id ?id .
+    ?var  prop:is "Param" ;
+          prop:parent_id ?id .
+    FILTER strStarts(str(?func),str(function:)) .
+    FILTER strStarts(str(?var),str(variable:)) .
+}
+
+16)
+
+group by filenames then max
+
+PREFIX prop: <http://smartKT/ns/properties#>
+
+SELECT ?file (COUNT(*) AS ?ccount)
+WHERE
+{
+	?var prop:is_defined ?file ;
+	FILTER strStarts(str(?var),str(variable:)) .
+}
+GROUP BY ?file
+ORDER BY DESC(?ccount) LIMIT 1
+
+17)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+PREFIX function: <http://smartKT/ns/symbol/function#>
+
+SELECT ?id ?fname (COUNT(*) AS ?ccount)
+WHERE
+{
+    ?func prop:name ?fname ;
+          prop:has_id ?id .
+    ?var  prop:is "Param" ;
+          prop:parent_id ?id .
+    FILTER strStarts(str(?func),str(function:)) .
+    FILTER strStarts(str(?var),str(variable:)) .
+}
+GROUP BY ?id ?fname
+ORDER BY DESC(?ccount) LIMIT 1
+
+18) since there is no readcount maintained for global variables in dynamic.xml file here there are no records found in our KG
+
+PREFIX prop: <http://smartKT/ns/properties#>
+
+SELECT ?vname
+WHERE
+{
+	?var prop:is_defined "pngtest.c" ;
+	     prop:is "Global" ;
+	     prop:name ?vname ;
+	     prop:read_count ?rcount .
+	FILTER strStarts(str(?var),str(variable:)) .
+	FILTER (?rcount > 0) .
+}
+
+21)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+
+SELECT ?vname (COUNT(*) AS ?ccount)
+WHERE
+{
+	?var prop:name ?vname .
+	FILTER strStarts(str(?var),str(variable:)) .
+}
+GROUP BY ?vname
+HAVING (COUNT(*) > 1)
+
+the total no of rows retrieved is our ans
+
+22)
+
+PREFIX prop: <http://smartKT/ns/properties#>
+
+SELECT (COUNT(*) AS ?ccount)
+WHERE
+{
+	?var prop:name "red_y" .
+	FILTER strStarts(str(?var),str(variable:)) .
+}
+

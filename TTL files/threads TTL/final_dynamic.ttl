@@ -1,0 +1,555 @@
+@prefix prop: <http://smartKT/ns/properties#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sequence: <http://smartKT/ns/sequence#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://smartKT/ns/sequence#1> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "main" ;
+    prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#10> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x18" ;
+    prop:read_count 6 ;
+    prop:var_id <http://smartKT/ns/symbol#103343092896> ;
+    prop:var_name "i" ;
+    prop:write_count 0 .
+
+<http://smartKT/ns/sequence#11> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0xc" ;
+    prop:read_count 0 ;
+    prop:var_id <http://smartKT/ns/symbol#101135789063> ;
+    prop:var_name "a" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#12> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "pthread_create@plt" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#13> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 1 .
+
+<http://smartKT/ns/sequence#14> prop:INP "[None]" ;
+    prop:NONLOCALREAD "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "NONLOCALREAD" ;
+    prop:offset "0x10" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 1 ;
+    prop:var_class "NONLOCALSTACK" ;
+    prop:var_id <http://smartKT/ns/symbol#101135789063> ;
+    prop:var_name "a" .
+
+<http://smartKT/ns/sequence#15> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x18" ;
+    prop:read_count 1 ;
+    prop:var_id <http://smartKT/ns/symbol#201262602282> ;
+    prop:var_name "arg" ;
+    prop:write_count 0 .
+
+<http://smartKT/ns/sequence#16> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "printf@plt" ;
+    prop:caller_name "_Z7trythisPv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 1 .
+
+<http://smartKT/ns/sequence#17> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 1 .
+
+<http://smartKT/ns/sequence#18> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x10" ;
+    prop:read_count 0 ;
+    prop:var_id <http://smartKT/ns/symbol#203649503619> ;
+    prop:var_name "i" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#19> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x8" ;
+    prop:read_count 0 ;
+    prop:var_id <http://smartKT/ns/symbol#203870922148> ;
+    prop:var_name "r" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#2> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x18" ;
+    prop:read_count 0 ;
+    prop:var_id <http://smartKT/ns/symbol#103343092896> ;
+    prop:var_name "i" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#20> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "pthread_mutex_lock@plt" ;
+    prop:caller_name "_Z7trythisPv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 1 .
+
+<http://smartKT/ns/sequence#21> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "main" ;
+    prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#22> prop:INP "[None]" ;
+    prop:NONLOCALREAD "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "main" ;
+    prop:is_a "NONLOCALREAD" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id <http://smartKT/ns/symbol#102923756536> ;
+    prop:var_name "tid" .
+
+<http://smartKT/ns/sequence#23> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x14" ;
+    prop:read_count 1 ;
+    prop:var_id <http://smartKT/ns/symbol#102631444646> ;
+    prop:var_name "error" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#24> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x18" ;
+    prop:read_count 2 ;
+    prop:var_id <http://smartKT/ns/symbol#103343092896> ;
+    prop:var_name "i" ;
+    prop:write_count 0 .
+
+<http://smartKT/ns/sequence#25> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "pthread_join@plt" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#26> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCK" .
+
+<http://smartKT/ns/sequence#27> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "IO" ;
+    prop:posix_lock "" ;
+    prop:sync "1" ;
+    prop:thread_id 1 .
+
+<http://smartKT/ns/sequence#28> prop:INP "[None]" ;
+    prop:NONLOCALREAD "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "NONLOCALREAD" ;
+    prop:posix_lock "MUTEX" ;
+    prop:sync "1" ;
+    prop:thread_id 1 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id <http://smartKT/ns/symbol#102602137462> ;
+    prop:var_name "counter" .
+
+<http://smartKT/ns/sequence#29> prop:INP "[None]" ;
+    prop:NONLOCALWRITE "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "NONLOCALWRITE" ;
+    prop:posix_lock "MUTEX" ;
+    prop:sync "1" ;
+    prop:thread_id 1 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id <http://smartKT/ns/symbol#102602137462> ;
+    prop:var_name "counter" .
+
+<http://smartKT/ns/sequence#3> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "pthread_mutex_init@plt" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#30> prop:INP "[None]" ;
+    prop:NONLOCALREAD "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "NONLOCALREAD" ;
+    prop:posix_lock "MUTEX" ;
+    prop:sync "1" ;
+    prop:thread_id 1 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id <http://smartKT/ns/symbol#102602137462> ;
+    prop:var_name "counter" .
+
+<http://smartKT/ns/sequence#31> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x8" ;
+    prop:read_count 1 ;
+    prop:var_id <http://smartKT/ns/symbol#203870922148> ;
+    prop:var_name "r" ;
+    prop:write_count 0 .
+
+<http://smartKT/ns/sequence#32> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "printf@plt" ;
+    prop:caller_name "_Z7trythisPv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 1 .
+
+<http://smartKT/ns/sequence#33> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 2 .
+
+<http://smartKT/ns/sequence#34> prop:INP "[None]" ;
+    prop:NONLOCALREAD "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "NONLOCALREAD" ;
+    prop:offset "0xc" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 2 ;
+    prop:var_class "NONLOCALSTACK" ;
+    prop:var_id <http://smartKT/ns/symbol#101135789063> ;
+    prop:var_name "a" .
+
+<http://smartKT/ns/sequence#35> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x18" ;
+    prop:read_count 1 ;
+    prop:var_id <http://smartKT/ns/symbol#201262602282> ;
+    prop:var_name "arg" ;
+    prop:write_count 0 .
+
+<http://smartKT/ns/sequence#36> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "printf@plt" ;
+    prop:caller_name "_Z7trythisPv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 2 .
+
+<http://smartKT/ns/sequence#37> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 2 .
+
+<http://smartKT/ns/sequence#38> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x10" ;
+    prop:read_count 0 ;
+    prop:var_id <http://smartKT/ns/symbol#203649503619> ;
+    prop:var_name "i" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#39> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x8" ;
+    prop:read_count 0 ;
+    prop:var_id <http://smartKT/ns/symbol#203870922148> ;
+    prop:var_name "r" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#4> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "main" ;
+    prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#40> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "pthread_mutex_lock@plt" ;
+    prop:caller_name "_Z7trythisPv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 2 .
+
+<http://smartKT/ns/sequence#41> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCK" .
+
+<http://smartKT/ns/sequence#42> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "IO" ;
+    prop:posix_lock "" ;
+    prop:sync "1" ;
+    prop:thread_id 1 .
+
+<http://smartKT/ns/sequence#43> prop:INP "[None]" ;
+    prop:NONLOCALREAD "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "NONLOCALREAD" ;
+    prop:posix_lock "MUTEX" ;
+    prop:sync "1" ;
+    prop:thread_id 1 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id <http://smartKT/ns/symbol#102602137462> ;
+    prop:var_name "counter" .
+
+<http://smartKT/ns/sequence#44> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x10" ;
+    prop:read_count 21 ;
+    prop:var_id <http://smartKT/ns/symbol#203649503619> ;
+    prop:var_name "i" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#45> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "printf@plt" ;
+    prop:caller_name "_Z7trythisPv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 1 .
+
+<http://smartKT/ns/sequence#46> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "pthread_mutex_unlock@plt" ;
+    prop:caller_name "_Z7trythisPv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 1 .
+
+<http://smartKT/ns/sequence#47> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "UNLOCK" .
+
+<http://smartKT/ns/sequence#48> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "RETURN" ;
+    prop:return_value "UNKNOWN" ;
+    prop:thread_id 1 .
+
+<http://smartKT/ns/sequence#49> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "IO" ;
+    prop:posix_lock "" ;
+    prop:sync "1" ;
+    prop:thread_id 2 .
+
+<http://smartKT/ns/sequence#5> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x18" ;
+    prop:read_count 5 ;
+    prop:var_id <http://smartKT/ns/symbol#103343092896> ;
+    prop:var_name "i" ;
+    prop:write_count 0 .
+
+<http://smartKT/ns/sequence#50> prop:INP "[None]" ;
+    prop:NONLOCALREAD "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "NONLOCALREAD" ;
+    prop:posix_lock "MUTEX" ;
+    prop:sync "1" ;
+    prop:thread_id 2 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id <http://smartKT/ns/symbol#102602137462> ;
+    prop:var_name "counter" .
+
+<http://smartKT/ns/sequence#51> prop:INP "[None]" ;
+    prop:NONLOCALWRITE "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "NONLOCALWRITE" ;
+    prop:posix_lock "MUTEX" ;
+    prop:sync "1" ;
+    prop:thread_id 2 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id <http://smartKT/ns/symbol#102602137462> ;
+    prop:var_name "counter" .
+
+<http://smartKT/ns/sequence#52> prop:INP "[None]" ;
+    prop:NONLOCALREAD "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "NONLOCALREAD" ;
+    prop:posix_lock "MUTEX" ;
+    prop:sync "1" ;
+    prop:thread_id 2 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id <http://smartKT/ns/symbol#102602137462> ;
+    prop:var_name "counter" .
+
+<http://smartKT/ns/sequence#53> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x8" ;
+    prop:read_count 1 ;
+    prop:var_id <http://smartKT/ns/symbol#203870922148> ;
+    prop:var_name "r" ;
+    prop:write_count 0 .
+
+<http://smartKT/ns/sequence#54> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "printf@plt" ;
+    prop:caller_name "_Z7trythisPv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 2 .
+
+<http://smartKT/ns/sequence#55> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "IO" ;
+    prop:posix_lock "" ;
+    prop:sync "1" ;
+    prop:thread_id 2 .
+
+<http://smartKT/ns/sequence#56> prop:INP "[None]" ;
+    prop:NONLOCALREAD "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "NONLOCALREAD" ;
+    prop:posix_lock "MUTEX" ;
+    prop:sync "1" ;
+    prop:thread_id 2 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id <http://smartKT/ns/symbol#102602137462> ;
+    prop:var_name "counter" .
+
+<http://smartKT/ns/sequence#57> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x10" ;
+    prop:read_count 21 ;
+    prop:var_id <http://smartKT/ns/symbol#203649503619> ;
+    prop:var_name "i" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#58> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "printf@plt" ;
+    prop:caller_name "_Z7trythisPv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 2 .
+
+<http://smartKT/ns/sequence#59> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "pthread_mutex_unlock@plt" ;
+    prop:caller_name "_Z7trythisPv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 2 .
+
+<http://smartKT/ns/sequence#6> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x10" ;
+    prop:read_count 0 ;
+    prop:var_id <http://smartKT/ns/symbol#101135789063> ;
+    prop:var_name "a" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#60> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "UNLOCK" .
+
+<http://smartKT/ns/sequence#61> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "_Z7trythisPv" ;
+    prop:is_a "RETURN" ;
+    prop:return_value "UNKNOWN" ;
+    prop: 2 .
+
+<http://smartKT/ns/sequence#62> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "main" ;
+    prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#63> prop:INP "[None]" ;
+    prop:NONLOCALREAD "True" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "main" ;
+    prop:is_a "NONLOCALREAD" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id <http://smartKT/ns/symbol#102923756536> ;
+    prop:var_name "tid" .
+
+<http://smartKT/ns/sequence#64> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "pthread_join@plt" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#65> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "pthread_mutex_destroy@plt" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#66> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "main" ;
+    prop:is_a "RETURN" ;
+    prop:return_value "0" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#7> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:callee_name "pthread_create@plt" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#8> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:func_name "main" ;
+    prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#9> prop:INP "[None]" ;
+    prop:RUNID "0_1" ;
+    prop:is_a "LOCALACCESS" ;
+    prop:offset "0x14" ;
+    prop:read_count 1 ;
+    prop:var_id <http://smartKT/ns/symbol#102631444646> ;
+    prop:var_name "error" ;
+    prop:write_count 1 .
+

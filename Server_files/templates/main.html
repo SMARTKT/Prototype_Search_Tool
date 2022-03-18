@@ -1,0 +1,172 @@
+<!-- <!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-light blue lighten-4 p-3 mb-2 bg-secondary text-white text-center justify-content-center">
+  		<span class="navbar-brand text-center justify-content-center">Natural Language To SPARQL Conversion</span>
+	</nav>
+
+	<div align="center">
+		<h1>Online Demo</h1>
+		<br><br>
+		<form method="post">
+			<input type="text" size="50" placeholder="Input your query here" name="qry" value="{{request.form.qry}}">
+			<button type="submit">Submit</button>
+		</form>
+		<br><br>
+		<form action = "http://127.0.0.1:5000/uploader" method = "POST" enctype = "multipart/form-data">
+			<input type = "file" name = "file" />
+			<button type="submit">Upload Query File</button>
+		</form>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	
+</body>
+</html>
+ -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+
+		.container-fluid {
+	    background-color: #2B3856;
+		}
+
+		.nav-tabs > li > a {
+		color: #2B3856;
+		}
+
+		.text-large {
+		 font-size: 200%;
+		}
+
+		.form-control{
+	    overflow-y:scroll;
+		}
+
+		body{
+		/*height: 100%;*/
+		font-family: 'Montserrat', sans-serif;
+		}
+
+	</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-static-top" style="background: #181823;">
+	   <div class="container">
+	     <div class="navbar-header">
+	       <h1 class="navbar-brand " style="color: #ffffff">Intelligent Query System For Effective Code Search</h1>
+	     </div>
+	   </div>
+   </nav>
+
+	<div class="container">
+
+		<div class="align-self-start">
+
+			<br>
+
+			<h2>Online Demo </h2>
+
+		</div>
+
+		<div class="align-self-start">
+
+			<p class="text-muted ">Upload a query file in .txt format. Alternatively you can also enter a single query. </p>
+
+		</div>
+
+		<br>
+
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs align-self-start" id="myTab" role="tablist">
+
+			<li class="nav-item">
+		    	<a class="nav-link active " id="query-tab" data-toggle="tab" href="#query" role="tab" aria-controls="query" aria-selected="true" aria-expanded="true">Enter a query</a>
+		  	</li>
+		    <li class="nav-item">
+		    	<a class="nav-link " id="queryFile-tab" data-toggle="tab" href="#queryFile" role="tab" aria-controls="queryFile" aria-selected="false" aria-expanded="false">Upload a query file</a>
+		    </li>
+		    <li class="nav-item">
+		    	<a class="nav-link " id="info-tab" data-toggle="tab" href="#Info" role="tab" aria-controls="Info" aria-selected="false" aria-expanded="false">More Info</a>
+		    </li>
+
+		</ul>
+
+		<br><br>
+
+		<div class="tab-content">
+
+			<div class="form-group tab-pane active align-self-start" id="query">
+		
+				<form method="post">
+					<input type="text" size="50" placeholder="Input your query here" name="qry" value="{{request.form.qry}}">
+					<button type="submit" class="btn btn-info ">Submit</button>
+				</form>
+				<br>
+				<p >Result :</p>				
+				<textarea readonly class="form-control rounded-0" id="Result1" rows="15" placeholder="Result will be displayed here...">{{resp}}</textarea>
+
+			</div>
+
+			<div class="tab-pane fade align-self-start" id="queryFile">
+				<form method = "POST" enctype = "multipart/form-data">
+					<input type = "file" name = "file"/>
+					<br><br>
+					<button type="submit" class="btn btn-info ">Upload Query File</button>
+				</form>
+				<br>
+				<p >Result :</p>				
+				<textarea readonly class="form-control rounded-0" id="Result2" rows="15" placeholder="Result will be displayed here...">{{resp}}</textarea>
+
+			</div>
+
+			<div class="tab-pane fade align-self-start" id="Info">
+				
+				<p >Information to be added soon!</p>
+
+			</div>
+
+		</div>
+	</div>
+
+<!-- <script>
+	function loadfile() {
+	  var xhttp = new XMLHttpRequest();
+	  xhttp.onreadystatechange = function() {
+	    if (this.readyState == 4 && this.status == 200) {
+	      document.getElementById("Result2").innerHTML = this.responseText;
+	    }
+	  };
+	  xhttp.open("POST", "../init.py", true);
+	  xhttp.send(qry);
+	}
+
+	function loadquery() {
+	  var xhttp = new XMLHttpRequest();
+	  xhttp.onreadystatechange = function() {
+	    if (this.readyState == 4 && this.status == 200) {
+	      document.getElementById("Result1").innerHTML = this.responseText;
+	    }
+	  };
+	  xhttp.open("POST", "../init.py", true);
+	  xhttp.send(file);
+	}
+</script> -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	
+</body>

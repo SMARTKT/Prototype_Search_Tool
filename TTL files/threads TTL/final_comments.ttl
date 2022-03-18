@@ -1,0 +1,86 @@
+@prefix comment: <http://smartKT/ns/comment#> .
+@prefix prop: <http://smartKT/ns/properties#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix symbol: <http://smartKT/ns/symbol#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+symbol: prop:comment_id <http://smartKT/ns/comment#1>,
+        <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external",
+        "globals" .
+
+<http://smartKT/ns/symbol#100216453298> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#100308714638> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#100814090049> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#100868908604> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#101135789063> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#102026824562> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#102430163107> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#102602137462> prop:comment_id <http://smartKT/ns/comment#1> ;
+    prop:comment_token "globals" .
+
+<http://smartKT/ns/symbol#102631444646> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#102683664877> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#102923756536> prop:comment_id <http://smartKT/ns/comment#1>,
+        <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external",
+        "globals" .
+
+<http://smartKT/ns/symbol#103343092896> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#103645353489> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#103810510320> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/symbol#200953257532> prop:comment_id <http://smartKT/ns/comment#2> ;
+    prop:comment_token "declarations",
+        "external" .
+
+<http://smartKT/ns/comment#1> prop:comment_token "globals" ;
+    prop:has_id 1 ;
+    prop:is_defined_file "main.cpp" ;
+    prop:text "globals" .
+
+<http://smartKT/ns/comment#2> prop:comment_token "declarations",
+        "external" ;
+    prop:has_id 2 ;
+    prop:is_defined_file "main.cpp" ;
+    prop:text "external declarations" .
+

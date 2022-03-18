@@ -1,0 +1,82 @@
+<COMMENTS project_name="threads" project_path="/home/srijoni/SMARTKT_HANDOVER/smartKT/testsuite/threads"><COMMENT src_file_location="/home/srijoni/SMARTKT_HANDOVER/smartKT/testsuite/threads/main.cpp" comment_text="globals" comment_scope_start="7" comment_scope_end="10" comment_id="1">
+		<SYMBOLS>
+			<VarDecl type="pthread_t [2]" spelling="tid" id="102923756536" />
+			<VarDecl type="int" spelling="counter" id="102602137462" />
+			<TypeRef type="pthread_t" spelling="pthread_t" id="102233627449" />
+		</SYMBOLS>
+		<PROGRAM_DOMAINS />
+		<PROBLEM_DOMAINS />
+	</COMMENT>
+	<COMMENT src_file_location="/home/srijoni/SMARTKT_HANDOVER/smartKT/testsuite/threads/main.cpp" comment_text="external declarations" comment_scope_start="11" comment_scope_end="42" comment_id="2">
+		<SYMBOLS>
+			<VarDecl type="pthread_mutex_t" spelling="lock" id="100868908604" />
+			<VarDecl type="int" spelling="i" id="103343092896" />
+			<VarDecl type="int" spelling="error" id="102631444646" />
+			<VarDecl type="int [2]" spelling="a" id="101135789063" />
+			<UnexposedExpr type="int (*)(pthread_mutex_t *, const pthread_mutexattr_t *) throw()" spelling="pthread_mutex_init" id="102025943755" />
+			<UnexposedExpr type="int (*)(const char *__restrict, ...)" spelling="printf" id="103893236431" />
+			<UnexposedExpr type="int" spelling="i" id="103468331112" />
+			<UnexposedExpr type="int *" spelling="a" id="102849760101" />
+			<UnexposedExpr type="int" spelling="i" id="103440834276" />
+			<UnexposedExpr type="int" spelling="i" id="104267735173" />
+			<UnexposedExpr type="int (*)(pthread_t *__restrict, const pthread_attr_t *__restrict, void *(*)(void *), void *__restrict) throw()" spelling="pthread_create" id="100904164057" />
+			<UnexposedExpr type="pthread_t *" spelling="tid" id="102054769798" />
+			<UnexposedExpr type="int" spelling="i" id="104109689021" />
+			<UnexposedExpr type="int *" spelling="a" id="103075636276" />
+			<UnexposedExpr type="int" spelling="i" id="102356010916" />
+			<UnexposedExpr type="int" spelling="error" id="103832746778" />
+			<UnexposedExpr type="int (*)(const char *__restrict, ...)" spelling="printf" id="102995381011" />
+			<UnexposedExpr type="char *(*)(int) throw()" spelling="strerror" id="100489658041" />
+			<UnexposedExpr type="int" spelling="error" id="101828841038" />
+			<UnexposedExpr type="int (*)(pthread_t, void **)" spelling="pthread_join" id="102059976170" />
+			<UnexposedExpr type="pthread_t *" spelling="tid" id="102010105479" />
+			<UnexposedExpr type="int (*)(pthread_t, void **)" spelling="pthread_join" id="103076344503" />
+			<UnexposedExpr type="pthread_t *" spelling="tid" id="101796203294" />
+			<UnexposedExpr type="int (*)(pthread_mutex_t *) throw()" spelling="pthread_mutex_destroy" id="101259753677" />
+			<DeclRefExpr type="int (pthread_mutex_t *, const pthread_mutexattr_t *) throw()" spelling="pthread_mutex_init" id="103245088706" />
+			<DeclRefExpr type="pthread_mutex_t" spelling="lock" id="100521329878" />
+			<DeclRefExpr type="int (const char *__restrict, ...)" spelling="printf" id="101493943271" />
+			<DeclRefExpr type="int" spelling="i" id="101379882241" />
+			<DeclRefExpr type="int [2]" spelling="a" id="102574861232" />
+			<DeclRefExpr type="int" spelling="i" id="101108571545" />
+			<DeclRefExpr type="int" spelling="i" id="102737885652" />
+			<DeclRefExpr type="int" spelling="error" id="102417325263" />
+			<DeclRefExpr type="int (pthread_t *__restrict, const pthread_attr_t *__restrict, void *(*)(void *), void *__restrict) throw()" spelling="pthread_create" id="101610403764" />
+			<DeclRefExpr type="pthread_t [2]" spelling="tid" id="104050294942" />
+			<DeclRefExpr type="int" spelling="i" id="101172689698" />
+			<DeclRefExpr type="void *(void *)" spelling="trythis" id="103810749758" />
+			<DeclRefExpr type="int [2]" spelling="a" id="101338022329" />
+			<DeclRefExpr type="int" spelling="i" id="100661366759" />
+			<DeclRefExpr type="int" spelling="error" id="100250893048" />
+			<DeclRefExpr type="int (const char *__restrict, ...)" spelling="printf" id="104022067063" />
+			<DeclRefExpr type="char *(int) throw()" spelling="strerror" id="102196424691" />
+			<DeclRefExpr type="int" spelling="error" id="102173769854" />
+			<DeclRefExpr type="int" spelling="i" id="102786536157" />
+			<DeclRefExpr type="int (pthread_t, void **)" spelling="pthread_join" id="102691841719" />
+			<DeclRefExpr type="pthread_t [2]" spelling="tid" id="100930621618" />
+			<DeclRefExpr type="int (pthread_t, void **)" spelling="pthread_join" id="104144601829" />
+			<DeclRefExpr type="pthread_t [2]" spelling="tid" id="101105233665" />
+			<DeclRefExpr type="int (pthread_mutex_t *) throw()" spelling="pthread_mutex_destroy" id="102297866375" />
+			<DeclRefExpr type="pthread_mutex_t" spelling="lock" id="102939588270" />
+			<ParmDecl type="void *" spelling="arg" id="102026824562" />
+			<TypeRef type="pthread_mutex_t" spelling="pthread_mutex_t" id="101916923412" />
+			<FunctionDecl type="void *(void *)" spelling="trythis" id="104042145870" />
+			<FunctionDecl type="int ()" spelling="main" id="100216453298" />
+			<CallExpr type="int" spelling="pthread_mutex_init" id="102595535009" />
+			<CallExpr type="int" spelling="printf" id="101921716700" />
+			<CallExpr type="int" spelling="pthread_create" id="103091620651" />
+			<CallExpr type="int" spelling="printf" id="101184542374" />
+			<CallExpr type="char *" spelling="strerror" id="101473037587" />
+			<CallExpr type="int" spelling="pthread_join" id="103306769115" />
+			<CallExpr type="int" spelling="pthread_join" id="101027203641" />
+			<CallExpr type="int" spelling="pthread_mutex_destroy" id="103223013397" />
+			<StringLiteral type="const char [25]" spelling="&quot;\n mutex init has failed\n&quot;" id="101957524719" />
+			<StringLiteral type="const char [32]" spelling="&quot;\nThread can't be created : [%s]&quot;" id="101552479127" />
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="external" type=" 'Properties of Datastructure / Function / Blocks" />
+			<POGRAM_DOMAIN word="declarations" type=" 'Time Complexity / Space Complexity/ Memory/ Exception" />
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS />
+	</COMMENT>
+</COMMENTS>

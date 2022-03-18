@@ -1,0 +1,116 @@
+@prefix prop: <http://smartKT/ns/properties#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sequence: <http://smartKT/ns/sequence#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://smartKT/ns/sequence#1> prop:callee_name "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt" ;
+    prop:caller_name "_Z1fv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#10> prop:is_a "RETURN" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#11> prop:callee_name "_Z1fR1A@plt" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#12> prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#13> prop:is_a "NONLOCALWRITE" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id 302109179419 ;
+    prop:var_name "p" .
+
+<http://smartKT/ns/sequence#14> prop:is_a "NONLOCALREAD" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id 302109179419 ;
+    prop:var_name "p" .
+
+<http://smartKT/ns/sequence#15> prop:is_a "LOCALACCESS" ;
+    prop:read_count 1 ;
+    prop:var_id 202584130888 ;
+    prop:var_name "x" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#16> prop:is_a "RETURN" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#17> prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#18> prop:is_a "LOCALACCESS" ;
+    prop:read_count 0 ;
+    prop:var_id 102645498730 ;
+    prop:var_name "u" ;
+    prop:write_count 1 .
+
+<http://smartKT/ns/sequence#19> prop:callee_name "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#2> prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#20> prop:is_a "IO" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#21> prop:is_a "LOCALACCESS" ;
+    prop:read_count 1 ;
+    prop:var_id 102645498730 ;
+    prop:var_name "u" ;
+    prop:write_count 0 .
+
+<http://smartKT/ns/sequence#22> prop:callee_name "_ZNSolsEi@plt" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#23> prop:callee_name "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt" ;
+    prop:caller_name "main" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#24> prop:is_a "RETURN" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#3> prop:is_a "NONLOCALREAD" ;
+    prop:sync "ASYNC" ;
+    prop:thread_id 0 ;
+    prop:var_class "GLOBAL" ;
+    prop:var_id 102441900648 ;
+    prop:var_name "x" .
+
+<http://smartKT/ns/sequence#4> prop:is_a "RETURN" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#5> prop:is_a "RETURN" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#6> prop:is_a "RETURN" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#7> prop:is_a "RETURN" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#8> prop:callee_name "_Z41__static_initialization_and_destruction_0ii" ;
+    prop:caller_name "_GLOBAL__sub_I__Z1fv" ;
+    prop:is_a "CALL" ;
+    prop:thread_id 0 .
+
+<http://smartKT/ns/sequence#9> prop:is_a "RETURN" ;
+    prop:thread_id 0 .
+

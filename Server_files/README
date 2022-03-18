@@ -1,0 +1,50 @@
+prerequisities
+
+pip install flask
+pip install Flask
+pip install xml.dom.minidom
+pip install rdflib
+pip install nltk
+
+
+cd into folder Server_files
+
+All three server-side files : init.py, query_run.py and mapper.py should be placed in the same folder.
+In the directory where we have our init.py file create a folder called “templates” and place the two html files “main.html” and “success.html” in the folder.
+
+
+run the following command
+
+> cd Server_files
+> python init.py
+
+
+The following screen is flashed after a certain wait time as .ttl files are loaded (.ttl is extension of semantic triples using which the knowledge graph is stored)
+
+Time taken to load TTL 176.20316982269287
+ * Serving Flask app "init" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+
+
+ Copy http://0.0.0.0:5000/ and paste in an internet explorer
+
+ Once the query interface is live, try queryimg
+
+ Example queries
+
+ any construct name  (like write_ptr)
+
+ list all variables in a file -----    ( use any file name for the libpng github  project like pngwutil.c)
+
+ how many unsynchronised read and write sequence of variables involved in handler
+
+ constructs related to sorting
+
+ list extern variables and the file where it is defined
+
+ if the query engine crashes (unexpected input, etc.). go back and requery
+
