@@ -1,4 +1,4 @@
-prerequisities
+prerequisities for running the query engine
 
 pip install flask
 pip install Flask
